@@ -1,0 +1,72 @@
+{
+ "h1_2000_4000": {
+  "cells": 1038573,
+  "dp_Pa": 1780,
+  "dp_sd_Pa": 50,
+  "window": [
+   2000,
+   4000
+  ],
+  "p_min_rel_outlet_Pa": -2623,
+  "p_min_loc_m": "(-6.68102852e-03 -8.57397611e-03 3.52575805e-01)",
+  "p_min_below_inlet_Pa": 4403,
+  "subcooling_needed_K": 0.42,
+  "K_line_head": 7.49,
+  "Cv_equiv": 8.18
+ },
+ "h1_1500_2167": {
+  "cells": 1038573,
+  "dp_Pa": 1802,
+  "dp_sd_Pa": 42,
+  "window": [
+   1500,
+   2167
+  ],
+  "p_min_rel_outlet_Pa": -2623,
+  "p_min_loc_m": "(-6.68102852e-03 -8.57397611e-03 3.52575805e-01)",
+  "p_min_below_inlet_Pa": 4425,
+  "subcooling_needed_K": 0.42,
+  "K_line_head": 7.59,
+  "Cv_equiv": 8.13
+ },
+ "h07_1500_2167": {
+  "cells": 2915966,
+  "dp_Pa": 1598,
+  "dp_sd_Pa": 40,
+  "window": [
+   1500,
+   2167
+  ],
+  "p_min_rel_outlet_Pa": -1966,
+  "p_min_loc_m": "(3.61216219e-03 -1.02820569e-02 3.52551778e-01)",
+  "p_min_below_inlet_Pa": 3563,
+  "subcooling_needed_K": 0.34,
+  "K_line_head": 6.72,
+  "Cv_equiv": 8.63
+ },
+ "inputs": {
+  "mdot_kg_s": 0.28,
+  "T_K": 90.19,
+  "p_bar": 4.0,
+  "rho": 1141.83,
+  "nu": 1.71e-07,
+  "U_line_m_s": 0.6451,
+  "q_line_Pa": 237.6,
+  "turbulence": "k-omega SST, wall functions, steady simpleFoam",
+  "psat_90K_Pa": 101348.2,
+  "dpsat_dT_Pa_K": 10598.2
+ },
+ "volumes_cm3": {
+  "coupling_wetted": 202.3,
+  "B_outer_pocket_r_gt_19mm": 117.1,
+  "A_side_port": 2.59
+ },
+ "springs_hand_Pa": 12,
+ "mesh_study": {
+  "refinement_ratio": 1.411,
+  "diff_pct": 12.8,
+  "richardson_p2_Pa": 1392,
+  "richardson_p1_Pa": 1101,
+  "note": "h07 stopped at iteration 2167 (session moved host); both meshes compared on the same 1500-2167 window"
+ }
+}

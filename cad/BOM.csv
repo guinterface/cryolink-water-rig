@@ -1,0 +1,160 @@
+part,qty,make/buy,process,material,vendor_link,unit_price_USD,price_read_date,notes
+wet_insert,2,make,PRL lathe,6061-T6,,UNVERIFIED,,
+rear_cap,2,make,PRL lathe,6061-T6,,UNVERIFIED,,
+seat,2,make,PRL lathe,acetal,,UNVERIFIED,,
+face_insert_A,1,make,PRL lathe,6061-T6,,UNVERIFIED,,
+face_insert_B,1,make,PRL lathe,6061-T6,,UNVERIFIED,,
+insert_retainer,2,make,print,PETG,,UNVERIFIED,,
+poppet,2,make,PRL lathe,acetal,,UNVERIFIED,,
+poppet_seal,2,buy,buy,silicone sheet 2 mm,,UNVERIFIED,,Cut washer; adhesive retention assumption
+spring_guide,2,make,PRL mill,acetal,,UNVERIFIED,,
+preload_spacer,2,make,PRL lathe,acetal,,UNVERIFIED,,
+capture_A,1,make,print,PETG,,UNVERIFIED,,
+capture_B,1,make,print,PETG,,UNVERIFIED,,
+housing_sleeve,2,make,print,PETG,,UNVERIFIED,,
+coupling_stand,1,make,print,PETG,,UNVERIFIED,,
+base_plate,1,make,PRL mill,sealed plywood 12 mm,,UNVERIFIED,,"FIX7 add two dry-side Ø4.5 THRU with underside Ø12x6.5 counterbores at (8,163),(32,187); no tray holes"
+spill_tray_envelope,1,buy,buy,polypropylene,,UNVERIFIED,,"ASSUMPTION 580x275x35; buy watertight tray or bonded sheet, contains >4L; Candidate McMaster 4524T15 galvanized steel spill-control pan, 2 gal, 25 3/4 x 17 3/4 x 1 in (inside bottom 25 5/8 x 17 5/8 in), $9.98, Delivers Monday (MEASURED 2026-11-06); 580x275 mm footprint fits; 1 in deep vs CAD 35 mm envelope"
+wet_subbase,1,make,PRL mill,HDPE,,UNVERIFIED,,
+guide_rod,2,buy,buy,8 mm ground SS shaft,https://www.mcmaster.com/products/linear-motion-shafts/,UNVERIFIED,,ASSUMPTION 8mm x190 cut; source exact stock before fabrication; Cut length190 ASSUMPTION
+rail_end,2,make,print,PETG,,UNVERIFIED,,
+carriage_plate,1,make,PRL mill,6061-T6,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+floating_plate,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+B_stand,1,make,print,PETG,,UNVERIFIED,,
+shoulder_bolt_M4,4,buy,buy,SS 18-8,https://www.boltdepot.com/Search.aspx?q=metric+shoulder+bolt,UNVERIFIED,2026-11-05,"CAD is 4mm shoulder x25 (Ø8x3 head) = M3x0.5 thread, not M4 thread; Bolt Depot lists SS 18-8 4mm shoulder (3mm x 0.5mm thread) x 25mm and x30mm (MEASURED listing); price not read (Cloudflare check); 11-06 McMaster 90265A874 4mm shoulder x25mm M3x0.5 thread 4mm long head 6x3mm $5.06 each (1-4) MEASURED; buy 4 = $20.24"
+compliance_grommet,4,buy,buy,silicone,,UNVERIFIED,,ASSUMPTION ID3.5 OD16.5; stiffness must be measured
+offset_shim_0,1,make,print,PETG,,UNVERIFIED,,
+offset_shim_5,1,make,print,PETG,,UNVERIFIED,,
+offset_shim_minus5,1,make,print,PETG,,UNVERIFIED,,
+tilt_shim_1deg,1,make,print,PETG,,UNVERIFIED,,
+servo_SG5010,4,buy,buy,POM gears / polymer,https://www.adafruit.com/product/155,12.00,2026-11-05,body sourced; mount detail ASSUMPTION
+servo_cradle,4,make,print,PETG,,UNVERIFIED,,"FIX9 integral anchor feet, M4 ear joints and latch reaction tower clearance bores; FIX9 physical retention geometry; see FIX9_REPORT.md"
+carriage_crank,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+carriage_yoke,1,make,print,PETG,,UNVERIFIED,,
+drive_pin,1,buy,buy,52100 alloy steel,https://www.mcmaster.com/91595A155/,UNVERIFIED,,"FIX6 retained nominal Ø4 x12 dowel 91595A155 UNVERIFIED; crank Ø3.90 bore,0.10mm nominal diametral press interference,5mm engagement; headless; coupon-test PETG fit"
+latch_hook,2,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+latch_shaft,1,buy,buy,4mm SS shaft,,UNVERIFIED,,FIX9 Ø4 shaft trimmed to196mm; endY99 clears central retainer; shaft-mounted members have modeled clamp screws; FIX9 physical retention geometry; see FIX9_REPORT.md
+latch_bearing_minus90,1,make,print,PETG,,UNVERIFIED,,
+latch_bearing_90,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+switch_1402,3,buy,buy,polymer / steel,https://www.pololu.com/product/1402,2.37,2026-11-05,IN STOCK per source check 2026-11-05; READ vendor drawing; lever width/thickness and simplified terminal contours ASSUMPTION
+switch_mount,2,make,print,PETG,,UNVERIFIED,,ASSUMPTION 8mm travel slots; M2 screws through sourced 2.4mm body holes
+compact_switch_mount,1,make,print,PETG,,UNVERIFIED,,
+pinch_roof,2,make,print,PETG,,UNVERIFIED,,
+pinch_frame,2,make,print,PETG,,UNVERIFIED,,
+pinch_jaw,2,make,print,PETG,,UNVERIFIED,,
+pinch_nose,2,buy,buy,4mm smooth SS,,UNVERIFIED,,
+pinch_spring_9435K125,2,buy,buy,302 SS,https://www.mcmaster.com/9435K125/,UNVERIFIED,,$6.75 per pack of 5 (MEASURED mcmaster.com 2026-11-05) (pack price; counted per pack in cost/cost_model.py)
+pinch_cam,2,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+manual_clamp_frame,1,make,print,PETG,,UNVERIFIED,,"FIX8 add one24x26x6 base ear; two M4 anchors at world(-240,-35),(-230,-35); M4x16 and0.8 washers;9.2 engagement in transfer-tapped HDPE"
+manual_clamp_screw,1,buy,buy,M5 thumb screw,,UNVERIFIED,2026-11-06,McMaster 96016A569 M5x0.8 25mm SS body acetal head $8.36/10 MEASURED
+M5_clamp_nut,1,buy,buy,SS,,UNVERIFIED,,ASSUMPTION standard M5 nut envelope
+manual_clamp_jaw,1,make,print,PETG,,UNVERIFIED,,
+manifold,1,make,PRL mill,6061-T6,,UNVERIFIED,,"FIX8 original ports/pose unchanged; mounting bores Ø8 counterbore16 deep leaving8 web for M4x16 into risers; two M4x0.7 blind top taps at local(±8,13) full11 drill13"
+conditioning_spool,1,make,PRL lathe,6061-T6,,UNVERIFIED,,
+DS18B20_381,2,buy,buy,stainless / cable,https://www.adafruit.com/product/381,9.95,2026-11-05,
+wall_probe_clamp,1,make,PRL mill,6061-T6,,UNVERIFIED,,FIX8 two-piece clamp with full0.8 horizontal split and two M3x16 pinch screws; common thermal bridge and5mm base; two M4x16 manifold-top screws; paste contact retained
+barb_5121K321,11,buy,buy,polypropylene,https://www.mcmaster.com/5121K321/,UNVERIFIED,,"10-32 straight thread; 3/32in barb; body dimensions ASSUMPTION; 10-32 thread and3/32 tube sourced; body dimensions ASSUMPTION; $6.42 per pack of 10, buy 2 packs; rated firm tube 75A-80A (PU/PVC/Viton), 32-250 F, 120 psi @72 F (MEASURED mcmaster.com 2026-11-05); soft silicone 2.5 ID on 3/32 barb = fit ASSUMPTION, zip-tie + T3 check (pack price; counted per pack in cost/cost_model.py)"
+manifold_end_plug,1,buy,buy,brass,,UNVERIFIED,,10-32 simplified thread envelope
+pressure_tee_10_32,1,buy,buy,brass,,UNVERIFIED,,"ASSUMPTION unselected male10-32 / female10-32 tee, 16x10x10 body; verify seal and tool clearance; Candidate McMaster 5454K387 brass inline tee adapter, 3/32in barb x 10-32 male x 3/32in barb, $9.62 each, -40 to 500 F, firm 85A tube (MEASURED mcmaster.com 2026-11-05); differs from CAD male/female tee: barb run ends replace plug + separate barb (ESTIMATE, re-check fit in CAD); 11-05 REPLACED: 5454K387 ships in 1-2 weeks; use McMaster 2429K52 acetal 3 mm barbed tee $1.63 in the tubing + one 5121K321 barb in the manifold port (see PROTOTYPE_PLAN)"
+hose_route_source_to_clamp,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+hose_route_feed_to_B,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+hose_route_A_to_spool,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+hose_route_spool_to_manifold,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+hose_route_waste,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+hose_route_fill,1,buy,buy,silicone,,UNVERIFIED,,schematic straight spans; cut to suit bends
+receiver_envelope,1,buy,buy,PP,https://www.mcmaster.com/9896T13/,UNVERIFIED,2026-11-06,ASSUMPTION 250mL vented graduated receiver; candidate McMaster 9896T13 PP 100mL D2in x 3.125in with handle $5.08 MEASURED (needs centering ring in OD66 pan; empty every 1-2 cycles)
+load_cell_4541,1,buy,buy,aluminum,https://www.adafruit.com/product/4541,3.95,2026-11-05,four-wire5kg; calibrate installed; 75x12.7x12.7; fourM4 drawing. Internal relief ASSUMPTION; arrow down at loaded end; confirm ends from markings
+load_cell_base_clamp,1,make,print,PETG,,UNVERIFIED,,ASSUMPTION bottom screw heads recessed; fixed-end pedestal; four overload posts at Z63.2; shim/trim after load calibration
+receiver_pan,1,make,print,PETG,,UNVERIFIED,,ASSUMPTION receiverOD66; loaded-end top screws recessed; 4mm gap above beam; 0.5mm nominal overload-post gap
+waste_envelope,1,buy,buy,PP,,UNVERIFIED,,ASSUMPTION ≥250mL waste
+reservoir_mast,1,make,PRL mill,6061-T6,,UNVERIFIED,,"FIX7 stock19.05 square retained; FIX9 two Ø4 cross bores at worldZ398,410; existing foot/end joint retained; FIX9 physical retention geometry; see FIX9_REPORT.md"
+reservoir_cradle,1,make,print,PETG,,UNVERIFIED,,"FIX9 19.55 square socket on19.05 stock;0.25 per side ASSUMPTION coupon tune; positive M4 cross stop+lock, removable bottle rim capture; held ring diameter unchanged; FIX9 physical retention geometry; see FIX9_REPORT.md"
+reservoir_envelope,1,buy,buy,PP,https://www.mcmaster.com/4440T69/,UNVERIFIED,2026-11-06,ASSUMPTION open500mL reservoir; surface≤600mm abovebase; candidate McMaster 4440T69 PP 600mL D4.625in x 5in $5.70 MEASURED (cradle is OD78: CAD change needed)
+board_3405,1,buy,buy,FR4 / electronics,https://www.adafruit.com/product/3405,19.95,2026-11-05,loose headers; PCB outline/holes from Eagle; thickness1.6 and components/heights ASSUMPTION
+board_815,1,buy,buy,FR4 / electronics,https://www.adafruit.com/product/815,14.95,2026-11-05,IN STOCK read 2026-11-05; PCB outline/holes from Eagle; thickness1.6 and components/heights ASSUMPTION
+board_5974,1,buy,buy,FR4 / electronics,https://www.adafruit.com/product/5974,9.95,2026-11-05,HX711; PCB outline/holes from Eagle; thickness1.6 and components/heights ASSUMPTION
+board_3965,1,buy,buy,FR4 / electronics,https://www.adafruit.com/product/3965,29.95,2026-11-05,absolute gas pressure; never wet; PCB outline/holes from Eagle; thickness1.6 and components/heights ASSUMPTION
+electronics_mount,1,make,print,PETG,,UNVERIFIED,,
+electronics_splash_wall,1,make,print,PETG,,UNVERIFIED,,
+pressure_splash_wall_extension,1,make,print,PETG,,UNVERIFIED,,
+pressure_sensor_mast,1,make,PRL mill,6061-T6,,UNVERIFIED,,"FIX7 stock9.525 square retained; FIX9 two Ø3 cross bores at worldZ620.5,632; existing foot/anchors retained; FIX9 physical retention geometry; see FIX9_REPORT.md"
+pressure_sensor_mount,1,make,print,PETG,,UNVERIFIED,,"FIX9 10.025 square socket on9.525 stock;0.25 per side ASSUMPTION coupon tune; M3 cross stop+clamp, modeled M2 PCB insert joints; FIX9 physical retention geometry; see FIX9_REPORT.md"
+hose_route_pressure_air_leg,1,buy,buy,silicone,,UNVERIFIED,,ASSUMPTION ID2.5 route; first121mm vertical air leg; keep dry; secure gradual bends and replace with snug3/32ID tail at MPRLS
+subbase_foot,4,make,print,PETG,,UNVERIFIED,,
+travel_washer,8,buy,buy,SS,,UNVERIFIED,,ASSUMPTION OD24; measure washer thickness
+float_standoff,4,make,PRL lathe,aluminum,,UNVERIFIED,,
+seat_witness_cam,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+home_witness_cam,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+seat_switch_tower,1,make,print,PETG,,UNVERIFIED,,
+home_switch_tower,1,make,print,PETG,,UNVERIFIED,,
+latch_sensor_support,1,make,print,PETG,,UNVERIFIED,,
+latch_witness_flag,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+latch_coupler,1,make,print,PETG,,UNVERIFIED,,; FIX9 physical retention geometry; see FIX9_REPORT.md
+tie_screw_M3x22_91292A801,8,buy,buy,18-8 SS,https://www.mcmaster.com/91292A801/,UNVERIFIED,,18mm stack +0.5 washer +2.4 nut; 1.1mm protrusion =2.2 threads; M3x0.5 x22; head diameter5.5 height3; socket/chamfer omitted ASSUMPTION envelope
+tie_nut_M3,8,buy,buy,SS,,UNVERIFIED,,AF5.5 height2.4; thread represented by nominal bore ASSUMPTION
+tie_washer_M3,8,buy,buy,SS,,UNVERIFIED,,OD7 thickness0.5; ID3.2 ASSUMPTION
+M2 switch screws nuts washers,6,buy,buy,SS,,UNVERIFIED,,ASSUMPTION length to suit 6.4mm switch and 4mm slotted cheek
+O-ring AS568-026 McMaster9452K113,6,buy,buy,NBR70A,https://www.mcmaster.com/9452K113/,UNVERIFIED,,"A face1; rear caps2; radial seat2; spare1. Cross-reference verified via Global O-Ring; $5.43 per pack of 100, 1-9 packs (MEASURED mcmaster.com 2026-11-05) (pack price; counted per pack in cost/cost_model.py)"
+poppet spring9435K37,2,buy,buy,302SS,https://www.mcmaster.com/9435K37/,UNVERIFIED,,rate.77056N/mm; free20.6502; see SOURCES; $6.91 per pack of 5 re-read 2026-11-06 (MEASURED)
+silicone tubing3659 1m,3,buy,buy,silicone,https://www.adafruit.com/product/3659,3.50,2026-11-05,ID2.5 OD4.7; cut to fit; keep waste branch short
+M3 assortment plus washers,40,buy,buy,SS,,UNVERIFIED,,"ALLOWANCE: retainer clamps, pinch roofs, servo cradles, switch clamps and flag clamps"
+M4 bolts nuts washers assortment,40,buy,buy,SS,,UNVERIFIED,,ALLOWANCE: fixture-to-subbase and mast anchors; transfer drill after dry fit
+M5 thumb screw,1,buy,buy,SS,,UNVERIFIED,,25mm nominal threaded reach; captive nut in manual clamp roof; McMaster 96016A569 $8.36 per pack of 10 (MEASURED 11-06)
+silicone sheet2mm,1,buy,buy,silicone,,UNVERIFIED,,"Cut two26ODx4.2ID poppet washers; price/durometer/adhesive unverified; Candidate McMaster 3788T24 silicone sheet 12x12in, 2 mm, $34.41 each (MEASURED mcmaster.com 2026-11-05); far more than 2 washers need, ask PRL/Lab64 for scrap first"
+pinch pull cords and fairleads,2,buy,buy,braided cord/PTFE eye,,UNVERIFIED,,ASSUMPTION 0.8mm cord;6mm cam take-up; slack on close; not power-loss fail-safe
+servo horns and retaining screws,4,buy,buy,vendor supplied POM,,UNVERIFIED,,Use supplied25T horn; screw printed crank/cams/coupler to horn. Never force guessed spline
+10-32 sealing washers,12,buy,buy,elastomer,,UNVERIFIED,,"Use actual fitting matching washer; threaded joints are straight, not tapered"
+M4 load cell screws,4,buy,buy,18-8 SS,https://www.mcmaster.com/92095A194/,UNVERIFIED,,"4 x M4x16 button head ISO7380 92095A194; two fixed from below, two loaded from above; ASSUMPTION actual threaded depth; check no bottoming"
+M2 board screws nuts washers,6,buy,buy,SS,,UNVERIFIED,,HX711 four and MPRLS two; fit2.5mm PCB holes; length to suit
+MPRLS snug air tube tail,1,buy,buy,silicone,,UNVERIFIED,,3/32in ID tail and reducer to2.5ID main tube; verify gas seal on2.5OD port
+reservoir bulkhead outlet 10-32,1,buy,buy,PP/elastomer,https://www.mcmaster.com/5058K116/,UNVERIFIED,2026-11-06,ASSUMPTION gasketed outlet in open vessel base; confirm before drilling vessel; candidate McMaster 5058K116 aluminum thru-wall 1/8in barb with nut for 1/4in hole wall<=5/16in $13.66 each MEASURED; silicone-sheet washers both sides
+5V bench supply and servo distribution,1,buy,buy,borrowed supply,,UNVERIFIED,,"Four servo stall-current demand unverified. Separate MCU USB, common ground, fused/current-limited supply"
+wiring headers4.7k pull-up cable ties,1,buy,buy,electronics,,UNVERIFIED,,ALLOWANCE; no firmware included; HX711 and MPRLS hardware mounts provided
+machining and print revision allowance,1,buy,buy,consumables,,UNVERIFIED,,No shop fee or material quote obtained; do not treat BOM as a costed purchase order
+retainer_screw_M3x8_97710A114,6,buy,buy,18-8 SS,https://www.mcmaster.com/97710A114/,0.524,2026-11-07,"MEASURED 2026-11-07: $5.24 per pack of10; DIN920 head diameter4mm height1.9mm; 6mm pilot engagement,2mm bottom margin; side-load before capture cone; DIN920 narrow cheese head diameter4 height1.9; M3x8 fully threaded; conservative cylindrical head; drive slot omitted"
+anchor_screw_M4x16,8,buy,buy,18-8 SS,https://www.mcmaster.com/91292A118/,0.1163,2026-11-07,"MEASURED 2026-11-07: $11.63 per pack of100; M4x0.7 x16 SHCS; transfer-tap subbase,9.2mm engagement; M4x0.7 x16 SHCS; head OD7 x4; 9.2mm engagement into transfer-tapped subbase"
+fix5_washer_M4,12,buy,buy,18-8 SS,,UNVERIFIED,,OD9 ID4.3 thickness0.8; ASSUMPTION ISO7089 envelope
+clamp_screw_M4x45_91292A133,2,buy,buy,18-8 SS,https://www.mcmaster.com/91292A133/,0.2628,2026-11-07,MEASURED 2026-11-07: $13.14 per pack of50; 18-8 M4x0.7 x45 SHCS; minimum threaded length20; 4.2mm beyond nut; M4x0.7 x45 SHCS; head OD7 x4; nominal thread envelope
+clamp_nut_M4,2,buy,buy,18-8 SS,,UNVERIFIED,,AF7 thickness3.2 nominal M4 bore; ASSUMPTION ISO4032 envelope
+fix6_yoke_screw_M4x25,2,buy,buy,18-8 SS,,UNVERIFIED,,91292A122 UNVERIFIED M4x25 SHCS;14mm stack plus3.2mm nut;7.8mm protrusion
+fix6_yoke_nut_M4,2,buy,buy,SS,,UNVERIFIED,,
+fix6_M2_heat_set_94180A307,12,buy,buy,brass,https://www.mcmaster.com/94180A307/,UNVERIFIED,,FIX6 M2 inserts length2.9mm; Ø3.0 bores; ten electronics and two pressure sensor; install flush
+fix7_reservoir_end_screw_M5x16,1,buy,buy,18-8 SS,,UNVERIFIED,,M5x16 SHCS; head recessed0.5;11.5mm thread engagement
+fix7_reservoir_key_pin,1,buy,buy,SS,,UNVERIFIED,,3x10 dowel;4mm foot /6mm post; ream foot press fit and post slip fit
+fix7_pressure_end_screw_M4x12,1,buy,buy,18-8 SS,,UNVERIFIED,,91292A117 M4x12;10.5mm engagement; head recessed0.5
+fix7_pressure_key_pin,1,buy,buy,SS,,UNVERIFIED,,"1.5x6 dowel;2mm foot /4mm post; offset(+3.2,+3.2)mm; slip fit post, press fit foot"
+fix7_mast_anchor_M4x25,2,buy,buy,18-8 SS,,UNVERIFIED,,91292A122 already ordered; bearingZ25.8; tipZ0.8
+fix7_anchor_spacer,2,make,PRL lathe,6061-T6,,UNVERIFIED,,OD10 ID4.5 x7; two spacers above pressure foot
+fix7_anchor_washer,4,buy,buy,SS,,UNVERIFIED,,OD9 ID4.3 thickness0.8; four total
+fix7_anchor_nut_M4,2,buy,buy,18-8 SS,,UNVERIFIED,,94150A335 already ordered; AF7 x3.2; underside counterbore
+FIX7 siphon pickup and rim restraint,1,buy,buy,water-compatible tubing hardware,,UNVERIFIED,,Side-opening/standoff pickup at existing reservoir terminal site; nonprinted rim restraint; over-rim source must be primed. Existing assumed bottom bulkhead is not used and must remain sealed if fitted.
+fix8_manifold_riser,1,make,PRL mill,6061-T6,,UNVERIFIED,,FIX8 single35mm 6061 bridge; base26x30x6; pillar18x12x35; top48x12x10; left M4 top tap THRU10; right blind pilot10 full8.5; twoM4x16 anchors
+fix8_M4x16,8,buy,buy,18-8 SS,,UNVERIFIED,,91292A118 ordered M4x16 SHCS; conservative OD7x4 head
+fix8_M3x16,2,buy,buy,18-8 SS,,UNVERIFIED,,M3x16 SHCS OD5.5x3; length selection from M3 allowance; verify stock
+FIX8 M4 washers from ordered stock,4,buy,buy,18-8 SS,,UNVERIFIED,,Four extra OD9 ID4.3 x0.8 anchor washers; CAD reuses fix5_washer_M4; original FIX5 row remains byte-identical
+fix9_M2x14,8,buy,buy,18-8 SS,,UNVERIFIED,,91292A835 ordered; thread/head envelope; socket omitted
+fix9_M2x8,4,buy,buy,18-8 SS,,UNVERIFIED,,91292A832 ordered; thread/head envelope; socket omitted
+fix9_M3x12,8,buy,buy,18-8 SS,,UNVERIFIED,,91292A114 ordered; thread/head envelope; socket omitted
+fix9_M3x16,2,buy,buy,18-8 SS,,UNVERIFIED,,91292A115 ordered; thread/head envelope; socket omitted
+fix9_M3x22,4,buy,buy,18-8 SS,,UNVERIFIED,,91292A801 ordered; thread/head envelope; socket omitted
+fix9_M4x16,24,buy,buy,18-8 SS,,UNVERIFIED,,Ordered M4x16; thread/head envelope; socket omitted
+fix9_M4x40,2,buy,buy,18-8 SS,,UNVERIFIED,,Ordered M4x40; thread/head envelope; socket omitted
+fix9_nut_M2,8,buy,buy,18-8 SS,,UNVERIFIED,,Ordered metric nut; nominal internal thread envelope
+fix9_nut_M3,4,buy,buy,18-8 SS,,UNVERIFIED,,Ordered metric nut; nominal internal thread envelope
+fix9_nut_M4,18,buy,buy,18-8 SS,,UNVERIFIED,,Ordered metric nut; nominal internal thread envelope
+fix9_servo_horn,4,buy,buy,nylon,,UNVERIFIED,,"Supplied SG5010 horn; ASSUMPTION round machined envelope OD14, hub ID6; receipt match required"
+fix9_bottle_capture,1,make,print,PETG,,UNVERIFIED,,PETG removable rim restraint; two M3x16 bolts to cradle; coupon tune
+fix9_probe_hanger,1,make,print,PETG,,UNVERIFIED,,PETG rim hanger bolts to bottle restraint; split/radial clamp screw retains probe at existing depth
+fix9_board_insert_M2,2,buy,buy,brass,,UNVERIFIED,,"McMaster94180A307 UNVERIFIED; M2 heat-set insert, nominal OD3 x3; installed top650; coupon tune heat-set fit"
+fix9_horn_retainer_washer,1,buy,buy,SS,,UNVERIFIED,,Ordered washer; OD8 ID3.2 x0.8 envelope
+fix9_feed_horn_adapter,1,make,print,PETG,,UNVERIFIED,,Printed bridge from supplied horn to existing eccentric cam; modeled M2 bolt and retaining screw
+fix9_drain_horn_adapter,1,make,print,PETG,,UNVERIFIED,,Printed bridge from supplied horn to existing eccentric cam; modeled M2 bolt and retaining screw
+fix9_supplied_retainer_M3x6,4,buy,buy,18-8 SS,,UNVERIFIED,,Supplied SG5010 horn retainer; M3x6 envelope ASSUMPTION; replacement McMaster PN UNVERIFIED; thread/head envelope; socket omitted
+fix9_M2x6,4,buy,buy,18-8 SS,,UNVERIFIED,,91292A831 ordered; thread/head envelope; socket omitted
+fix9_latch_reaction_tower,1,make,print,PETG,,UNVERIFIED,,"PETG fixed reaction bracket; two M4x16 HDPE anchors, two M3x16 side bolts to servo cradle"
+fix9b_M4x16,4,buy,buy,18-8 SS,,UNVERIFIED,,91292A118 already ordered; four allocated to discharge guides; thread/head envelope; socket omitted
+fix9b_fill_guide,1,make,print,PETG,,UNVERIFIED,,Closed OD4.7 tube guide; slide tube through; two ordered M4x16 into transfer-tapped HDPE; no receiver/load-cell contact
+fix9b_waste_guide,1,make,print,PETG,,UNVERIFIED,,Closed OD4.7 tube guide; slide tube through; two ordered M4x16 into transfer-tapped HDPE; no receiver/load-cell contact
+fix10_reservoir_shim_9896T14,1,make,print,PETG,,0,2026-11-08,FIX10 (Claude): OD77.4 ID73.6 h12; centers 9896T14 in cradle bore; set ID from measured beaker
+fix10_receiver_centering_ring_9896T13,1,make,print,PETG,,0,2026-11-08,FIX10 (Claude): OD67.4 ID51.4 h3; centers 9896T13 in pan lip
+reservoir_9896T14,1,buy,,polypropylene,https://www.mcmaster.com/9896T14/,10.33,2026-11-08,FIX10: replaces 4440T69 (Ø117 does not fit cradle); cut handle flush

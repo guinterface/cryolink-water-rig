@@ -1,0 +1,47 @@
+part,qty,envelope_X_mm,envelope_Y_mm,envelope_Z_mm,orientation,supports,notes
+insert_retainer,2,50.0,50.0,12.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+capture_A,1,100.0,100.0,46.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+capture_B,1,98.0,98.0,35.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+housing_sleeve,2,68.0,68.0,42.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+coupling_stand,1,40.0,90.0,118.5,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+rail_end,2,18.0,140.0,24.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+floating_plate,1,130.0,90.0,6.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+B_stand,1,30.0,84.0,82.99,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+servo_cradle,4,73.0,34.0,28.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+carriage_crank,1,46.0,14.0,5.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+carriage_yoke,1,32.0,93.0,29.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latched_hook_pose,2,121.984,8.0,15.996,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latch_bearing_minus90,1,25.0,54.0,86.18,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latch_bearing_90,1,25.0,54.0,86.18,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+switch_mount,2,28.0,20.0,21.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+compact_switch_mount,1,28.0,20.0,21.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pinch_roof,2,65.0,48.0,6.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pinch_frame,2,65.0,68.0,34.225,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pinch_jaw,2,28.0,20.0,30.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pinch_cam,2,22.0,21.667,5.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+manual_clamp_frame,1,30.0,45.0,36.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+manual_clamp_jaw,1,15.0,18.0,5.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+load_cell_base_clamp,1,100.0,122.0,28.2,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+receiver_pan,1,100.0,90.0,11.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+reservoir_cradle,1,109.0,88.0,20.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+electronics_mount,1,193.0,46.0,20.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+electronics_splash_wall,1,197.0,3.0,65.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pressure_splash_wall_extension,1,60.0,3.0,65.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+pressure_sensor_mount,1,46.74,25.0,28.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+subbase_foot,4,20.0,20.0,10.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+seat_witness_cam,1,17.0,65.5,61.5,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+home_witness_cam,1,12.0,40.0,18.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+seat_switch_tower,1,28.0,24.0,73.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+home_switch_tower,1,28.0,24.0,20.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latch_sensor_support,1,192.0,10.0,57.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latch_witness_flag,1,26.0,10.0,4.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+latch_coupler,1,16.0,22.0,6.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9_bottle_capture,1,86.0,84.563,114.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9_probe_hanger,1,20.0,50.0,63.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9_feed_horn_adapter,1,18.0,24.0,2.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9_drain_horn_adapter,1,18.0,24.0,2.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9_latch_reaction_tower,1,35.0,76.0,71.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9b_fill_guide,1,42.0,103.0,141.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix9b_waste_guide,1,77.0,18.0,83.0,exported lowest-Z orientation,required for overhangs; slice supports enabled,FIX9 matched PETG estimate; inspect support access before printing
+fix10_reservoir_shim_9896T14,1,77.4,77.4,12.0,flat on bed (ring axis vertical),none (plain ring; sliced with supports off),FIX10 Claude 11-09: PrusaSlicer mk39hf 5 perim 40% = 6.70 g / 7m52s; fit-check on 9896T14 body before final
+fix10_receiver_centering_ring_9896T13,1,67.4,67.4,3.0,flat on bed (ring axis vertical),none (plain ring; sliced with supports off),FIX10 Claude 11-09: PrusaSlicer mk39hf 5 perim 40% = 5.57 g / 11m7s; fit-check on 9896T13 body before final

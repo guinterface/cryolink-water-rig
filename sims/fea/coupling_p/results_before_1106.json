@@ -1,0 +1,60 @@
+{
+ "pressures_mpa": {
+  "MEOP": 0.44,
+  "proof": 0.66,
+  "burst": 1.1
+ },
+ "sealed_area_mm2": {
+  "face_seal": 991.5,
+  "radial_seal": 1972.9
+ },
+ "hook_angles_deg": [
+  120.0,
+  240.0,
+  360.0
+ ],
+ "hand": {
+  "MEOP": {
+   "F_sep_N": 868,
+   "F_per_hook_N": 289,
+   "pin_tau_mpa": 7.4,
+   "F_sep_face_seal_N": 436
+  },
+  "proof": {
+   "F_sep_N": 1302,
+   "F_per_hook_N": 434,
+   "pin_tau_mpa": 11.1,
+   "F_sep_face_seal_N": 654
+  },
+  "burst": {
+   "F_sep_N": 2170,
+   "F_per_hook_N": 723,
+   "pin_tau_mpa": 18.4,
+   "F_sep_face_seal_N": 1091
+  }
+ },
+ "mesh_h": 1.0,
+ "nodes": 819371,
+ "elements": 522459,
+ "footprint_mm2": 72.3,
+ "fea_proof": {
+  "F_sep_N": 1302,
+  "vm_max_mpa": 91.6,
+  "vm_max_at": [
+   44.5,
+   0.5,
+   333.0
+  ],
+  "vm_max_away_mpa": 53.8,
+  "vm_max_away_at": [
+   44.3,
+   1.2,
+   329.9
+  ],
+  "umax_mm": 0.0105,
+  "ms_proof_peak": 2.01,
+  "ms_proof_away": 4.13,
+  "ms_burst_peak": 1.03,
+  "ms_burst_away": 2.46
+ }
+}

@@ -1,0 +1,251 @@
+{
+  "adaptive_span": [
+    {
+      "value": 50.0,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L3",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0137248562859,
+        "withdrawn_kg": 1015.7015655942677,
+        "lost_kg": 15.687625427577327,
+        "normalization_factor": 0.9999862753320832,
+        "phase_seconds": {
+          "line": 378.1000000000175,
+          "receiver": 541.9000000000547,
+          "fill": 3103.399999998273
+        },
+        "total_minutes": 67.05666666662394,
+        "settling_seconds": 4023.399999997436,
+        "settling_propellant_kg": 19.18416572979062,
+        "dumped_kg": 18.265815848576196,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.577975110581742,
+        "max_pressure_Pa": 157912.3530500748,
+        "mean_fill_flux_kg_m2s": 1363.7068514939886,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 100.0,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L3",
+        "failed": null,
+        "delivered_liquid_kg": 1000.007695947971,
+        "withdrawn_kg": 1015.2682600277835,
+        "lost_kg": 15.260446636209199,
+        "normalization_factor": 0.9999923041112562,
+        "phase_seconds": {
+          "line": 217.19999999999195,
+          "receiver": 541.6000000000546,
+          "fill": 3103.6999999982727
+        },
+        "total_minutes": 64.37499999995971,
+        "settling_seconds": 3862.4999999975826,
+        "settling_propellant_kg": 18.41767769458557,
+        "dumped_kg": 17.838517963303595,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5779538834819813,
+        "max_pressure_Pa": 157820.08293618486,
+        "mean_fill_flux_kg_m2s": 1363.7073600096312,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 150.0,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L3",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0104667753748,
+        "withdrawn_kg": 1015.2387300764562,
+        "lost_kg": 15.228103911938454,
+        "normalization_factor": 0.9999895333341775,
+        "phase_seconds": {
+          "line": 156.5999999999954,
+          "receiver": 541.5000000000546,
+          "fill": 3103.7999999982726
+        },
+        "total_minutes": 63.36499999996063,
+        "settling_seconds": 3801.8999999976377,
+        "settling_propellant_kg": 18.12897893636992,
+        "dumped_kg": 17.80623708367939,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.577973782605545,
+        "max_pressure_Pa": 157785.0995462891,
+        "mean_fill_flux_kg_m2s": 1363.7079683057066,
+        "gate_checks": 0,
+        "trace": []
+      }
+    }
+  ],
+  "spray_period": [
+    {
+      "value": 0.5,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0008989749349,
+        "withdrawn_kg": 1020.0173947258824,
+        "lost_kg": 20.01647775663567,
+        "normalization_factor": 0.9999991010258733,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 86.49999999999936,
+          "fill": 3544.7999999978715
+        },
+        "total_minutes": 61.77999999996207,
+        "settling_seconds": 3706.799999997724,
+        "settling_propellant_kg": 17.675905140243447,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5777439047454873,
+        "max_pressure_Pa": 281190.27825026325,
+        "mean_fill_flux_kg_m2s": 1388.7152262067584,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 1.0,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0197955710144,
+        "withdrawn_kg": 1020.0361861019403,
+        "lost_kg": 20.0159943028893,
+        "normalization_factor": 0.9999802048208425,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 83.9999999999995,
+          "fill": 3543.7999999978724
+        },
+        "total_minutes": 61.72166666662879,
+        "settling_seconds": 3703.2999999977274,
+        "settling_propellant_kg": 17.659230107657564,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5778491247860726,
+        "max_pressure_Pa": 281094.3045239569,
+        "mean_fill_flux_kg_m2s": 1388.6014918920173,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 2.0,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0223847397349,
+        "withdrawn_kg": 1020.038760532039,
+        "lost_kg": 20.01592774097104,
+        "normalization_factor": 0.9999776157613305,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 82.3999999999996,
+          "fill": 3543.4999999978727
+        },
+        "total_minutes": 61.689999999962154,
+        "settling_seconds": 3701.399999997729,
+        "settling_propellant_kg": 17.650177935445996,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5778638634255504,
+        "max_pressure_Pa": 281106.7663708378,
+        "mean_fill_flux_kg_m2s": 1388.6153153378234,
+        "gate_checks": 0,
+        "trace": []
+      }
+    }
+  ],
+  "spray_duty": [
+    {
+      "value": 0.4,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0197955710144,
+        "withdrawn_kg": 1020.0361861019403,
+        "lost_kg": 20.0159943028893,
+        "normalization_factor": 0.9999802048208425,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 83.9999999999995,
+          "fill": 3543.7999999978724
+        },
+        "total_minutes": 61.72166666662879,
+        "settling_seconds": 3703.2999999977274,
+        "settling_propellant_kg": 17.659230107657564,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5778491247860726,
+        "max_pressure_Pa": 281094.3045239569,
+        "mean_fill_flux_kg_m2s": 1388.6014918920173,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 0.5,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.0221498714563,
+        "withdrawn_kg": 1020.0385251075805,
+        "lost_kg": 20.01593188580584,
+        "normalization_factor": 0.9999778506191496,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 76.29999999999994,
+          "fill": 3542.299999997874
+        },
+        "total_minutes": 61.5683333332956,
+        "settling_seconds": 3694.0999999977357,
+        "settling_propellant_kg": 17.615398460592214,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5778644196009974,
+        "max_pressure_Pa": 282042.2268796839,
+        "mean_fill_flux_kg_m2s": 1388.0860735192468,
+        "gate_checks": 0,
+        "trace": []
+      }
+    },
+    {
+      "value": 0.7,
+      "result": {
+        "label": "COMPUTED (our model); rests on ASSUMPTION",
+        "case": "L4",
+        "failed": null,
+        "delivered_liquid_kg": 1000.020611558625,
+        "withdrawn_kg": 1020.0369929729688,
+        "lost_kg": 20.015968854028397,
+        "normalization_factor": 0.9999793888662026,
+        "phase_seconds": {
+          "line": 75.49999999999999,
+          "receiver": 68.00000000000041,
+          "fill": 3545.299999997871
+        },
+        "total_minutes": 61.479999999962345,
+        "settling_seconds": 3688.7999999977405,
+        "settling_propellant_kg": 17.590147533061216,
+        "dumped_kg": 22.594239655718052,
+        "vented_mixture_kg": 0.0,
+        "receiver_vapor_change_kg": -2.5778582413700297,
+        "max_pressure_Pa": 283107.3804828949,
+        "mean_fill_flux_kg_m2s": 1385.4683838779717,
+        "gate_checks": 0,
+        "trace": []
+      }
+    }
+  ]
+}

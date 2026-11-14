@@ -1,0 +1,86 @@
+{
+ "T_K": 90.0,
+ "dL_L_pct": {
+  "Al6061": -0.376,
+  "SS304": -0.27,
+  "PTFE": -1.886,
+  "PCTFE": -0.931,
+  "silicone": -2.114
+ },
+ "seat": {
+  "cold_hard_stop_radial_overlap_worst_shift_mm": 0.6605,
+  "cold_hard_stop_axial_gap_mm": 0.01306,
+  "radial_gap_opens_mm": 0.108,
+  "diametral_mm": 0.216,
+  "axial_clamp_lost_mm": 0.0166,
+  "retention": "four M1.2 screws + axial hard-stop retainer + load collar, A and B",
+  "spring": "Smalley SSR-0200-S17; material/90K qualification pending",
+  "spring_source": "https://www.smalley.com/wave-spring/ssr-0200",
+  "spring_rate_N_mm": 126.614,
+  "preload_warm_N": 151.24,
+  "cold_stack_relaxation_mm": 0.01306,
+  "preload_90K_N": 149.59,
+  "retains_preload": true,
+  "load_model": "ASSUMPTION constant catalog rate at 90K; SS304 contraction proxy for spring; no creep/pressure qualification"
+ },
+ "warm_seal": {
+  "female_ri": 25.4,
+  "spigot_ro": 25.299999999999997,
+  "floor_radius": 23.8125,
+  "cases": {
+   "both 293 K": {
+    "clearance_mm": 0.1,
+    "Al_constrained_bound_mm": 0.1,
+    "PTFE_jacket_radial_depth_mm": 1.5875
+   },
+   "both 90 K": {
+    "clearance_mm": 0.1267,
+    "Al_constrained_bound_mm": 0.0996,
+    "PTFE_jacket_radial_depth_mm": 1.6086
+   },
+   "B cold 90 K, A warm 293 K (mate to a chilled client)": {
+    "clearance_mm": 0.0314,
+    "Al_constrained_bound_mm": 0.0044,
+    "PTFE_jacket_radial_depth_mm": 1.5189
+   },
+   "A cold 90 K, B warm 293 K": {
+    "clearance_mm": 0.1952,
+    "Al_constrained_bound_mm": 0.1952,
+    "PTFE_jacket_radial_depth_mm": 1.6771
+   },
+   "B 203 K, A warm 293 K": {
+    "clearance_mm": 0.0658,
+    "Al_constrained_bound_mm": 0.0501,
+    "PTFE_jacket_radial_depth_mm": 1.5533
+   }
+  },
+  "seal": "Palmetto 230-032 virgin PTFE + helical spring; supplier-pending",
+  "sleeve": "17-4 PH H1025",
+  "sleeve_contraction_model": "ASSUMPTION SS304 proxy, bounded by Al housing; coupled press-fit thermoelasticity not solved",
+  "min_B_temp_rule_K": 203.0,
+  "worst_diametral_gap_mm": 0.3904,
+  "extrusion_limit_mm": 0.43,
+  "min_B_temp_K_for_0p05mm_with_A_warm": 157.6
+ },
+ "sleeve": {
+  "material": "17-4 PH H1025",
+  "diametral_interference_293K_mm": 0.025,
+  "free_diametral_interference_90K_mm": 0.0814,
+  "note": "ASSUMPTION 17-4 contraction represented by SS304; actual fit stress and bore distortion require thermal FEA"
+ },
+ "face_seal": {
+  "material": "Palmetto 239-026 virgin PTFE + helical spring; supplier-pending",
+  "gland_id_mm": 30.18,
+  "gland_od_mm": 34.93,
+  "depth_mm": 1.475,
+  "cold_radial_mismatch_mm": 0.2637,
+  "depth_90K_mm": 1.4694,
+  "verdict": "U-jacket spring energized, no elastomer squeeze claim; supplier must confirm cold radial fit, spring load and oxygen compatibility"
+ },
+ "checks": {
+  "cold_hard_stop_retains_radial_overlap": true,
+  "seat_preload_positive": true,
+  "clearance_at_203K_bounds_above_0p05": true,
+  "extrusion_gap_within_0p43": true
+ }
+}

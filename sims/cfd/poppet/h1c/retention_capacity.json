@@ -1,0 +1,25 @@
+{
+  "A": {
+    "free_gland_capacity_cm3": 1.8412164404482787,
+    "already_in_main_CFD_cm3": 0.0,
+    "additional_isolated_capacity_cm3": 1.8412164404482787,
+    "capacity_r_gt_19mm_cm3": 1.7099833989590183,
+    "z_bounds_mm": [
+      290.0,
+      293.8622
+    ]
+  },
+  "B": {
+    "free_gland_capacity_cm3": 1.8412163941158537,
+    "already_in_main_CFD_cm3": 0.0,
+    "additional_isolated_capacity_cm3": 1.8412163941158537,
+    "capacity_r_gt_19mm_cm3": 1.7099833526266122,
+    "z_bounds_mm": [
+      322.1378,
+      326.0
+    ]
+  },
+  "evidence": "COMPUTED nominal CAD free capacities; ESTIMATE upper bound if cold seat relaxation/gap admits LOX. Not a resolved gap-flow or seal-leakage prediction.",
+  "main_CFD_wetted_cm3": 85.19727966815822,
+  "wetted_if_both_glands_fill_cm3": 88.87971250272236
+}

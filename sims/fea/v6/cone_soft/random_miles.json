@@ -1,0 +1,78 @@
+{
+ "f1_hz": 68.99554,
+ "mode1_z_mass_fraction": 0.8899155457490558,
+ "cases": [
+  {
+   "level": "acceptance (MPE)",
+   "Q": 10,
+   "psd": 0.015,
+   "grms": 4.03,
+   "g3sigma": 12.1,
+   "vm_peak_mpa": 87.0,
+   "ms_peak": 1.55,
+   "vm_p999_mpa": 29.0,
+   "ms_p999": 6.65,
+   "umax_mm": 0.73
+  },
+  {
+   "level": "acceptance (MPE)",
+   "Q": 20,
+   "psd": 0.015,
+   "grms": 5.7,
+   "g3sigma": 17.1,
+   "vm_peak_mpa": 123.0,
+   "ms_peak": 0.8,
+   "vm_p999_mpa": 41.0,
+   "ms_p999": 4.41,
+   "umax_mm": 1.04
+  },
+  {
+   "level": "protoflight (MPE+3 dB)",
+   "Q": 10,
+   "psd": 0.0299,
+   "grms": 5.7,
+   "g3sigma": 17.1,
+   "vm_peak_mpa": 122.0,
+   "ms_peak": 0.8,
+   "vm_p999_mpa": 41.0,
+   "ms_p999": 4.42,
+   "umax_mm": 1.04
+  },
+  {
+   "level": "protoflight (MPE+3 dB)",
+   "Q": 20,
+   "psd": 0.0299,
+   "grms": 8.05,
+   "g3sigma": 24.2,
+   "vm_peak_mpa": 173.0,
+   "ms_peak": 0.27,
+   "vm_p999_mpa": 58.0,
+   "ms_p999": 2.83,
+   "umax_mm": 1.47
+  },
+  {
+   "level": "qualification (MPE+6 dB)",
+   "Q": 10,
+   "psd": 0.0597,
+   "grms": 8.04,
+   "g3sigma": 24.1,
+   "vm_peak_mpa": 173.0,
+   "ms_peak": 0.28,
+   "vm_p999_mpa": 58.0,
+   "ms_p999": 2.83,
+   "umax_mm": 1.47
+  },
+  {
+   "level": "qualification (MPE+6 dB)",
+   "Q": 20,
+   "psd": 0.0597,
+   "grms": 11.38,
+   "g3sigma": 34.1,
+   "vm_peak_mpa": 245.0,
+   "ms_peak": -0.1,
+   "vm_p999_mpa": 81.0,
+   "ms_p999": 1.71,
+   "umax_mm": 2.07
+  }
+ ]
+}

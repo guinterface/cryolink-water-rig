@@ -1,0 +1,33 @@
+{
+ "h": 6.0,
+ "nodes": 857123,
+ "elements": 480475,
+ "mass_kg": 12.524704532218239,
+ "modes_hz": [
+  78.77943,
+  112.5758,
+  115.9749,
+  218.4518,
+  231.653,
+  254.5873,
+  271.4825,
+  291.4584
+ ],
+ "axial_10g": {
+  "umax_mm": 0.46223585290062913,
+  "vm_max_mpa": 122.4847699070554,
+  "vm_p999_mpa": 25.34303794202594
+ },
+ "lat_x_17g": {
+  "umax_mm": 0.4085343907680845,
+  "vm_max_mpa": 37.09528310941687,
+  "vm_p999_mpa": 12.79076834496
+ },
+ "lat_y_17g": {
+  "umax_mm": 0.36975005021648066,
+  "vm_max_mpa": 40.10039276614133,
+  "vm_p999_mpa": 12.583455047718292
+ },
+ "peak_note": "axial peak at the four bolt lands, 8 mm from bolt centers, beside the idealized clamped patch (r 10 mm): partly a boundary artifact",
+ "codex_mode1_hz": 77.278
+}

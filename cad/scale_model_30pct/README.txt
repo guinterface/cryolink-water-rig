@@ -1,0 +1,10 @@
+CryoLink water transfer rig - 30% scale model, all 90 made parts (printed + machined), 3 plates.
+Source: real rig CAD 11-05 (cryolink/prototype/cad/step), scaled 0.30, laid flat, packed for a 250x210 bed.
+Slicer check (PrusaSlicer 2.8.1, MK3.9S, PLA, 0.30 mm layers, 2 walls, 10% infill, auto supports ON):
+  Plate 1 2h04, Plate 2 1h54, Plate 3 1h48 (about 155 g total).
+Each STEP opens as one object with the parts already placed. Do not rearrange; just slice with supports.
+Display model: screw holes are ~1 mm, so assemble with glue. Bought parts (servos, springs, switches, sensors, boards) are NOT included; list them as parts to buy.
+
+Plate 1 (36 parts, 2h04): B_stand, base_plate, face_insert_A, fix7_anchor_spacer, fix8_manifold_riser, fix9_feed_horn_adapter, fix9_latch_reaction_tower, fix9_probe_hanger, float_standoff, home_switch_tower, home_witness_cam, insert_retainer, latch_bearing_90, latch_hook, latch_sensor_support, manifold, manual_clamp_jaw, offset_shim_0, offset_shim_5, pinch_cam, pinch_jaw, pinch_roof, poppet, preload_spacer, pressure_splash_wall_extension, rear_cap, seat, seat_witness_cam, servo_cradle, spring_guide, subbase_foot, switch_mount, wall_probe_clamp
+Plate 2 (44 parts, 1h54): capture_B, carriage_crank, carriage_yoke, compact_switch_mount, conditioning_spool, electronics_mount, face_insert_B, fix7_anchor_spacer, fix9_bottle_capture, fix9_drain_horn_adapter, fix9b_fill_guide, fix9b_waste_guide, float_standoff, floating_plate, housing_sleeve, insert_retainer, latch_bearing_minus90, latch_coupler, latch_hook, latch_witness_flag, manual_clamp_frame, offset_shim_minus5, pinch_cam, pinch_frame, pinch_jaw, pinch_roof, poppet, preload_spacer, pressure_sensor_mount, rail_end, rear_cap, reservoir_cradle, seat, seat_switch_tower, servo_cradle, spring_guide, subbase_foot, switch_mount, tilt_shim_1deg, wet_insert, wet_subbase
+Plate 3 (12 parts, 1h48): capture_A, carriage_plate, coupling_stand, electronics_splash_wall, housing_sleeve, load_cell_base_clamp, pinch_frame, pressure_sensor_mast, rail_end, receiver_pan, reservoir_mast, wet_insert

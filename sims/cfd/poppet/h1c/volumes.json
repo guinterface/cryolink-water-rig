@@ -1,0 +1,23 @@
+{
+  "raw_boolean_volume_mm3": 135293.12465587904,
+  "cleanup_volume_delta_mm3": -0.08706000703386962,
+  "raw_faces": 194,
+  "cleaned_faces": 138,
+  "evidence": "COMPUTED main CFD volume: nominal retention glands capped outside r18 flow bore; cold gland capacities reported separately; original two helical valve springs omitted as before",
+  "full_domain_with_stubs_cm3": 135.29303759587202,
+  "coupling_wetted_cm3": 85.19727966815822,
+  "B_outer_pocket_r_gt_19mm_cm3": 0.0,
+  "B_outer_pocket_LOX_g": 0.0,
+  "coupling_bounds_z_mm": [
+    255.2,
+    353.9
+  ],
+  "pocket_bounds_z_mm": [
+    302,
+    353.9
+  ],
+  "cad_sha256": {
+    "coupling_a": "8e5a4165541af295aa759b38acf0ca975cb34465fa4a88e9115aae5c5eb61578",
+    "coupling_b": "b1cc7e6c9e94e91fbdca6ae709e9c83faf685a7ae2dbda8b9fa153debd525fa5"
+  }
+}

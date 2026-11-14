@@ -1,0 +1,67 @@
+{
+ "source_note": "gland dims from Palmetto catalog dash tables (inches -> mm); checks COMPUTED",
+ "radial": {
+  "series": "Palmetto 230 (helical, 17-7 PH or Elgiloy), dash -032, jacket 01 virgin PTFE",
+  "gland_floor_dia": 47.625,
+  "bore_dia": 50.8,
+  "gland_width": [
+   2.39,
+   2.64
+  ],
+  "radial_depth": 1.587,
+  "change_vs_cad": {
+   "floor_dia": [
+    47.349,
+    47.625
+   ],
+   "bore_dia": [
+    50.126,
+    50.8
+   ]
+  },
+  "clearance_options": {
+   "A: clearance 0.10 + B heater (mate only with B >= T_min)": {
+    "radial_clearance_warm": 0.1,
+    "B_cold_A_warm": 0.004,
+    "A_cold_B_warm": 0.196,
+    "worst_diametral": 0.391,
+    "within_C_0p43": true,
+    "jams_if_B_cold": true,
+    "B_min_temp_K": 203.0
+   },
+   "B: clearance 0.15, no heater": {
+    "radial_clearance_warm": 0.15,
+    "B_cold_A_warm": 0.054,
+    "A_cold_B_warm": 0.246,
+    "worst_diametral": 0.491,
+    "within_C_0p43": false,
+    "jams_if_B_cold": false,
+    "B_min_temp_K": null
+   }
+  }
+ },
+ "face": {
+  "series": "Palmetto 239 internal face (helical), dash -026, jacket 01 virgin PTFE",
+  "gland_id": 30.175,
+  "gland_od": 34.925,
+  "gland_width": 2.375,
+  "gland_depth": [
+   1.448,
+   1.499
+  ],
+  "seal_height_ref": 1.27,
+  "note": "cold, the PTFE ring shrinks about 0.264 mm more in radius than the Al groove, so it moves off the OD wall that internal pressure pushes it against; the axial spring load still seals the faces, but the cold radial fit (seal OD vs gland OD) must be sized by the supplier for 90 K (K p.4: heavy springs).",
+  "cold_radial_shrink_mm": {
+   "seal_od": 0.329,
+   "groove_od": 0.066
+  }
+ },
+ "surfaces": {
+  "hardness": "HRC 30 min on the dynamic bore (P p.4, C p.18); Al 6061-T6 is far softer -> hard surface or a stainless sleeve; choice and LOX compatibility to confirm with the seal supplier (ASSUMPTION)",
+  "finish_uin_Ra": {
+   "dynamic": "2-8",
+   "static": "8-12"
+  }
+ },
+ "verdict": "Both seals have catalog glands within ~0.7 mm of the current CAD. Option A (keep 0.10 mm, warm B before mate) stays inside the 0.43 mm diametral limit in every hot/cold case; option B (0.15 mm) never jams but its worst gap exceeds the 10 MPa limit, which is only acceptable if the supplier rates it at our lower pressure."
+}

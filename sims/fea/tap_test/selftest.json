@@ -1,0 +1,137 @@
+[
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 83.36,
+  "fn_peaks_hz": 83.12,
+  "cycles_used": 5,
+  "Q_logdec": 5.51,
+  "Q_halfpower": 8.29,
+  "Q_true": 5
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.03,
+  "fn_peaks_hz": 83.12,
+  "cycles_used": 5,
+  "Q_logdec": 5.26,
+  "Q_halfpower": 7.09,
+  "Q_true": 5
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 80.3,
+  "fn_peaks_hz": 83.66,
+  "cycles_used": 5,
+  "Q_logdec": 5.22,
+  "Q_halfpower": 5.61,
+  "Q_true": 5
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 83.35,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 8,
+  "Q_logdec": 10.13,
+  "Q_halfpower": 10.44,
+  "Q_true": 10
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.03,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 8,
+  "Q_logdec": 10.19,
+  "Q_halfpower": 11.29,
+  "Q_true": 10
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 81.75,
+  "fn_peaks_hz": 81.75,
+  "cycles_used": 8,
+  "Q_logdec": 10.09,
+  "Q_halfpower": 9.58,
+  "Q_true": 10
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.26,
+  "fn_peaks_hz": 81.86,
+  "cycles_used": 12,
+  "Q_logdec": 15.13,
+  "Q_halfpower": 15.14,
+  "Q_true": 15
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.02,
+  "fn_peaks_hz": 81.86,
+  "cycles_used": 12,
+  "Q_logdec": 15.49,
+  "Q_halfpower": 16.39,
+  "Q_true": 15
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 81.81,
+  "fn_peaks_hz": 81.86,
+  "cycles_used": 12,
+  "Q_logdec": 15.2,
+  "Q_halfpower": 14.99,
+  "Q_true": 15
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.03,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 14,
+  "Q_logdec": 20.12,
+  "Q_halfpower": 20.06,
+  "Q_true": 20
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.02,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 15,
+  "Q_logdec": 20.2,
+  "Q_halfpower": 21.26,
+  "Q_true": 20
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 81.95,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 15,
+  "Q_logdec": 19.96,
+  "Q_halfpower": 19.92,
+  "Q_true": 20
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.01,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 21,
+  "Q_logdec": 29.44,
+  "Q_halfpower": 29.46,
+  "Q_true": 30
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 82.02,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 22,
+  "Q_logdec": 30.49,
+  "Q_halfpower": 30.96,
+  "Q_true": 30
+ },
+ {
+  "fs_hz": 3200.0,
+  "fn_hz": 81.99,
+  "fn_peaks_hz": 82.05,
+  "cycles_used": 22,
+  "Q_logdec": 29.79,
+  "Q_halfpower": 30.53,
+  "Q_true": 30
+ }
+]

@@ -1,0 +1,1029 @@
+{
+  "label": "COMPUTED; validation attempt, not a calibration",
+  "experiments": [
+    {
+      "case": "F2 bare continuous",
+      "time_s": 5.279999999999932,
+      "inlet_mass_kg": 0.30165874506806417,
+      "outlet_mass_kg": 0.28324656899939377,
+      "inventory_kg": 0.018412176068670214,
+      "measured_time_s": 14.6,
+      "measured_outlet_mass_kg": 0.872,
+      "time_error_percent": -63.835616438356624,
+      "mass_error_percent": -67.51759529823467,
+      "within_experimental_error": false,
+      "off_pulse_heat_J": 0.0,
+      "total_heat_J": 9087.29758162377,
+      "mass_residual_kg": 1.9081958235744878e-16,
+      "max_cell_mass_residual_kg": 3.903127820947816e-18,
+      "max_cell_energy_residual_J": 1.8474111129762605e-13,
+      "boundary_assumptions": {
+        "mean_pressure_Pa": 325000.0,
+        "initial_wall_K": 293.0,
+        "onflow_kg_s": 0.057132338081072376,
+        "inlet_K": 77.0
+      },
+      "config": {}
+    },
+    {
+      "case": "F28 coated pulsed",
+      "time_s": 23.270000000000838,
+      "inlet_mass_kg": 0.12600470626175078,
+      "outlet_mass_kg": 0.11005538574065957,
+      "inventory_kg": 0.015949320521091586,
+      "measured_time_s": 7.25,
+      "measured_outlet_mass_kg": 0.274,
+      "time_error_percent": 220.96551724139087,
+      "mass_error_percent": -59.83380082457681,
+      "within_experimental_error": false,
+      "off_pulse_heat_J": 2964.071644198743,
+      "total_heat_J": 8791.95627443849,
+      "mass_residual_kg": -3.712308238590367e-16,
+      "max_cell_mass_residual_kg": 4.336808689942018e-18,
+      "max_cell_energy_residual_J": 1.1368683772161603e-13,
+      "boundary_assumptions": {
+        "mean_pressure_Pa": 325000.0,
+        "initial_wall_K": 293.0,
+        "onflow_kg_s": 0.05361902394117072,
+        "inlet_K": 77.0
+      },
+      "config": {}
+    }
+  ],
+  "passed": false,
+  "computed_mass_saving_percent": 61.14502423473483,
+  "tabulated_mass_saving_percent": 68.57798165137613,
+  "text_claim_mass_saving_percent": [
+    75,
+    76
+  ],
+  "sensitivities": {
+    "p": [
+      {
+        "value": 150000.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 26.060000000001274,
+          "inlet_mass_kg": 0.14209041344410192,
+          "outlet_mass_kg": 0.12546720765756025,
+          "inventory_kg": 0.016623205786541927,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 259.4482758620865,
+          "mass_error_percent": -54.20904830016049,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3093.1122495181316,
+          "total_heat_J": 8956.06728453696,
+          "mass_residual_kg": -2.6020852139652106e-16,
+          "max_cell_mass_residual_kg": 3.903127820947816e-18,
+          "max_cell_energy_residual_J": 1.7053025658242404e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 150000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      },
+      {
+        "value": 325000.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      },
+      {
+        "value": 550000.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.960000000000946,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.1116036771174327,
+          "inventory_kg": 0.014401029144317996,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 230.4827586207027,
+          "mass_error_percent": -59.26873097903916,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2819.667470187361,
+          "total_heat_J": 8800.254284997027,
+          "mass_residual_kg": 8.500145032286355e-17,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2212453270876722e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 550000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      }
+    ],
+    "T0": [
+      {
+        "value": 280.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 20.41000000000039,
+          "inlet_mass_kg": 0.10991899907939964,
+          "outlet_mass_kg": 0.09445682831188325,
+          "inventory_kg": 0.015462170767516478,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 181.51724137931575,
+          "mass_error_percent": -65.52670499566304,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2688.7007107120407,
+          "total_heat_J": 7899.506194911145,
+          "mass_residual_kg": -8.326672684688674e-17,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.156852391659413e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 280.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      },
+      {
+        "value": 293.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      },
+      {
+        "value": 300.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.35000000000085,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11015335494297086,
+          "inventory_kg": 0.0158513513187801,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 222.0689655172531,
+          "mass_error_percent": -59.798045641251505,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3133.708616931864,
+          "total_heat_J": 9236.808147562679,
+          "mass_residual_kg": -1.8041124150158794e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2789769243681803e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 300.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {}
+        }
+      }
+    ],
+    "onflow_scale": [
+      {
+        "value": 1.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "onflow_scale": 1.0
+          }
+        }
+      },
+      {
+        "value": 4.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 11.809999999999793,
+          "inlet_mass_kg": 0.25093703204467854,
+          "outlet_mass_kg": 0.23649899503361457,
+          "inventory_kg": 0.014438037011063713,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 62.896551724135065,
+          "mass_error_percent": -13.686498162914395,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 1785.80188839036,
+          "total_heat_J": 8710.042184392394,
+          "mass_residual_kg": 2.5673907444456745e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.9895196601282805e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.21447609576468288,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "onflow_scale": 4.0
+          }
+        }
+      },
+      {
+        "value": 10.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 8.799999999999857,
+          "inlet_mass_kg": 0.47184741068230135,
+          "outlet_mass_kg": 0.45710766272428405,
+          "inventory_kg": 0.014739747958017173,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 21.37931034482561,
+          "mass_error_percent": 66.82761413295037,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 1255.6738159887475,
+          "total_heat_J": 8723.513870512872,
+          "mass_residual_kg": 1.2836953722228372e-16,
+          "max_cell_mass_residual_kg": 3.903127820947816e-18,
+          "max_cell_energy_residual_J": 3.410605131648481e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.5361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "onflow_scale": 10.0
+          }
+        }
+      }
+    ],
+    "holdup_fraction": [
+      {
+        "value": 0.05,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 26.630000000001363,
+          "inlet_mass_kg": 0.14209041344410192,
+          "outlet_mass_kg": 0.14047519111767937,
+          "inventory_kg": 0.0016152223264226065,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 267.31034482760504,
+          "mass_error_percent": -48.73168207383966,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 1478.5844855466885,
+          "total_heat_J": 8697.228232065374,
+          "mass_residual_kg": -5.139118297581291e-17,
+          "max_cell_mass_residual_kg": 6.505213034913027e-19,
+          "max_cell_energy_residual_J": 4.263256414560601e-14,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "holdup_fraction": 0.05
+          }
+        }
+      },
+      {
+        "value": 0.25,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "holdup_fraction": 0.25
+          }
+        }
+      },
+      {
+        "value": 0.75,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 25.540000000001193,
+          "inlet_mass_kg": 0.14209041344410192,
+          "outlet_mass_kg": 0.09155949417484673,
+          "inventory_kg": 0.050530919269255764,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 252.27586206898195,
+          "mass_error_percent": -66.58412621355959,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3464.863880917241,
+          "total_heat_J": 8960.664183656945,
+          "mass_residual_kg": -5.689893001203927e-16,
+          "max_cell_mass_residual_kg": 8.673617379884035e-18,
+          "max_cell_energy_residual_J": 4.725109192804666e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "holdup_fraction": 0.75
+          }
+        }
+      }
+    ],
+    "drain_tau": [
+      {
+        "value": 0.3,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 19.8200000000003,
+          "inlet_mass_kg": 0.10991899907939964,
+          "outlet_mass_kg": 0.10721845067355007,
+          "inventory_kg": 0.002700548405849998,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 173.3793103448317,
+          "mass_error_percent": -60.86917858629559,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 4507.290808322169,
+          "total_heat_J": 8724.85307762739,
+          "mass_residual_kg": -4.2457357074532354e-16,
+          "max_cell_mass_residual_kg": 2.8189256484623115e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "drain_tau": 0.3
+          }
+        }
+      },
+      {
+        "value": 3.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "drain_tau": 3.0
+          }
+        }
+      },
+      {
+        "value": 30.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 28.880000000001715,
+          "inlet_mass_kg": 0.15817612062645306,
+          "outlet_mass_kg": 0.14025117448286767,
+          "inventory_kg": 0.01792494614358553,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 298.34482758623056,
+          "mass_error_percent": -48.81343996975633,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 1150.536021118627,
+          "total_heat_J": 8727.326937284202,
+          "mass_residual_kg": -1.3877787807814457e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2789769243681803e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "drain_tau": 30.0
+          }
+        }
+      }
+    ],
+    "inlet_K": [
+      {
+        "value": 75.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 20.59000000000042,
+          "inlet_mass_kg": 0.10991899907939964,
+          "outlet_mass_kg": 0.09496207174276221,
+          "inventory_kg": 0.014956927336637704,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 184.00000000000577,
+          "mass_error_percent": -65.3423095829335,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2984.093132088206,
+          "total_heat_J": 8709.05405240944,
+          "mass_residual_kg": -2.688821387764051e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.7053025658242404e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 75.0
+          },
+          "config": {
+            "inlet_K": 75.0
+          }
+        }
+      },
+      {
+        "value": 77.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "inlet_K": 77.0
+          }
+        }
+      },
+      {
+        "value": 80.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.010000000000797,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.10973693011355709,
+          "inventory_kg": 0.016267776148193833,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 217.3793103448386,
+          "mass_error_percent": -59.95002550600106,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2941.109544009701,
+          "total_heat_J": 8759.553867774315,
+          "mass_residual_kg": -1.4224732503009818e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.3500311979441904e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 80.0
+          },
+          "config": {
+            "inlet_K": 80.0
+          }
+        }
+      }
+    ],
+    "density": [
+      {
+        "value": 7600.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 20.33000000000038,
+          "inlet_mass_kg": 0.10991899907939964,
+          "outlet_mass_kg": 0.0942430755060558,
+          "inventory_kg": 0.015675923573344044,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 180.41379310345351,
+          "mass_error_percent": -65.60471696859278,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2793.11163923616,
+          "total_heat_J": 8297.961095632574,
+          "mass_residual_kg": -2.0469737016526324e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2079226507921703e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "density": 7600.0
+          }
+        }
+      },
+      {
+        "value": 8000.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "density": 8000.0
+          }
+        }
+      },
+      {
+        "value": 8400.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.10000000000081,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.1098472099329959,
+          "inventory_kg": 0.016157496328755013,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 218.6206896551836,
+          "mass_error_percent": -59.909777396716834,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3073.9094082344845,
+          "total_heat_J": 9176.869510123599,
+          "mass_residual_kg": -1.3530843112619095e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2079226507921703e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "density": 8400.0
+          }
+        }
+      }
+    ],
+    "cp_scale": [
+      {
+        "value": 0.8,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 16.979999999999855,
+          "inlet_mass_kg": 0.0938332918970485,
+          "outlet_mass_kg": 0.07765011185421981,
+          "inventory_kg": 0.016183180042828905,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 134.20689655172217,
+          "mass_error_percent": -71.66054311889788,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2273.7658113642137,
+          "total_heat_J": 6976.810677373731,
+          "mass_residual_kg": -2.1510571102112408e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.0103029524088925e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "cp_scale": 0.8
+          }
+        }
+      },
+      {
+        "value": 1.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "cp_scale": 1.0
+          }
+        }
+      },
+      {
+        "value": 1.2,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 26.400000000001327,
+          "inlet_mass_kg": 0.14209041344410192,
+          "outlet_mass_kg": 0.12643860169334387,
+          "inventory_kg": 0.015651811750758284,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 264.1379310345011,
+          "mass_error_percent": -53.85452492943654,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3595.351508735084,
+          "total_heat_J": 10482.126783180987,
+          "mass_residual_kg": -2.2898349882893854e-16,
+          "max_cell_mass_residual_kg": 3.469446951953614e-18,
+          "max_cell_energy_residual_J": 1.2390088954816747e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "cp_scale": 1.2
+          }
+        }
+      }
+    ],
+    "stop_margin": [
+      {
+        "value": 2.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.61000000000089,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11047166122174168,
+          "inventory_kg": 0.015533045040009486,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 225.6551724138054,
+          "mass_error_percent": -59.68187546651764,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2967.2068900332583,
+          "total_heat_J": 8795.091520273003,
+          "mass_residual_kg": -3.8337388819087437e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_margin": 2.0
+          }
+        }
+      },
+      {
+        "value": 5.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_margin": 5.0
+          }
+        }
+      },
+      {
+        "value": 10.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_margin": 10.0
+          }
+        }
+      }
+    ],
+    "stop_slope": [
+      {
+        "value": 0.2,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 30.500000000001968,
+          "inlet_mass_kg": 0.1742618278088042,
+          "outlet_mass_kg": 0.15614375611031783,
+          "inventory_kg": 0.01811807169848661,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 320.68965517244095,
+          "mass_error_percent": -43.01322769696429,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 3018.715557287005,
+          "total_heat_J": 8999.623853388166,
+          "mass_residual_kg": -2.42861286636753e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.8474111129762605e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_slope": 0.2
+          }
+        }
+      },
+      {
+        "value": 0.5,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_slope": 0.5
+          }
+        }
+      },
+      {
+        "value": 1.0,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 22.420000000000705,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.10901402321089253,
+          "inventory_kg": 0.016990683050858577,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 209.24137931035455,
+          "mass_error_percent": -60.21386014201002,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2949.369621685902,
+          "total_heat_J": 8777.254251925642,
+          "mass_residual_kg": -3.226585665316861e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_slope": 1.0
+          }
+        }
+      }
+    ],
+    "stop_hold": [
+      {
+        "value": 0.1,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.180000000000824,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.10994515756994662,
+          "inventory_kg": 0.016059548691804534,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 219.72413793104585,
+          "mass_error_percent": -59.87403008396108,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2962.853993447953,
+          "total_heat_J": 8790.7386236877,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_hold": 0.1
+          }
+        }
+      },
+      {
+        "value": 0.2,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.270000000000838,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11005538574065957,
+          "inventory_kg": 0.015949320521091586,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 220.96551724139087,
+          "mass_error_percent": -59.83380082457681,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2964.071644198743,
+          "total_heat_J": 8791.95627443849,
+          "mass_residual_kg": -3.712308238590367e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_hold": 0.2
+          }
+        }
+      },
+      {
+        "value": 0.5,
+        "result": {
+          "case": "F28 coated pulsed",
+          "time_s": 23.570000000000885,
+          "inlet_mass_kg": 0.12600470626175078,
+          "outlet_mass_kg": 0.11042270184090622,
+          "inventory_kg": 0.015582004420844946,
+          "measured_time_s": 7.25,
+          "measured_outlet_mass_kg": 0.274,
+          "time_error_percent": 225.10344827587429,
+          "mass_error_percent": -59.69974385368386,
+          "within_experimental_error": false,
+          "off_pulse_heat_J": 2966.8812744347847,
+          "total_heat_J": 8794.765904674527,
+          "mass_residual_kg": -3.8163916471489756e-16,
+          "max_cell_mass_residual_kg": 4.336808689942018e-18,
+          "max_cell_energy_residual_J": 1.1368683772161603e-13,
+          "boundary_assumptions": {
+            "mean_pressure_Pa": 325000.0,
+            "initial_wall_K": 293.0,
+            "onflow_kg_s": 0.05361902394117072,
+            "inlet_K": 77.0
+          },
+          "config": {
+            "stop_hold": 0.5
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "revision": "2026-11-06 cold-fit",
+  "old_h1": {
+    "cells": 1038573,
+    "dp_Pa": 1780,
+    "dp_sd_Pa": 50,
+    "window": [
+      2000,
+      4000
+    ],
+    "p_min_rel_outlet_Pa": -2623,
+    "p_min_loc_m": "(-6.68102852e-03 -8.57397611e-03 3.52575805e-01)",
+    "p_min_below_inlet_Pa": 4403,
+    "subcooling_needed_K": 0.42,
+    "K_line_head": 7.49,
+    "Cv_equiv": 8.18
+  },
+  "old_h07": {
+    "cells": 2915966,
+    "dp_Pa": 1598,
+    "dp_sd_Pa": 40,
+    "window": [
+      1500,
+      2167
+    ],
+    "p_min_rel_outlet_Pa": -1966,
+    "p_min_loc_m": "(3.61216219e-03 -1.02820569e-02 3.52551778e-01)",
+    "p_min_below_inlet_Pa": 3563,
+    "subcooling_needed_K": 0.34,
+    "K_line_head": 6.72,
+    "Cv_equiv": 8.63
+  },
+  "old_volumes_cm3": {
+    "coupling_wetted": 202.3,
+    "B_outer_pocket_r_gt_19mm": 117.1,
+    "A_side_port": 2.59
+  },
+  "new_h1c": {
+    "cells": 576413,
+    "dp_Pa": 2292.03,
+    "dp_sd_Pa": 51.19,
+    "window": [
+      2000,
+      4000.0
+    ],
+    "samples": 81,
+    "p_min_rel_outlet_Pa": -3528.31,
+    "p_min_loc_m": "(9.59675128e-03 4.96804754e-03 3.52098044e-01)",
+    "p_min_below_inlet_Pa": 5820.34,
+    "p_min_absolute_at_inlet_4bar_Pa": 394179.66,
+    "subcooling_needed_K": 0.5492,
+    "pressure_margin_above_psat_at_inlet_4bar_Pa": 292831.46,
+    "mesh_ok": true,
+    "volumes": {
+      "raw_boolean_volume_mm3": 135293.12465587904,
+      "cleanup_volume_delta_mm3": -0.08706000703386962,
+      "raw_faces": 194,
+      "cleaned_faces": 138,
+      "evidence": "COMPUTED main CFD volume: nominal retention glands capped outside r18 flow bore; cold gland capacities reported separately; original two helical valve springs omitted as before",
+      "full_domain_with_stubs_cm3": 135.29303759587202,
+      "coupling_wetted_cm3": 85.19727966815822,
+      "B_outer_pocket_r_gt_19mm_cm3": 0.0,
+      "B_outer_pocket_LOX_g": 0.0,
+      "coupling_bounds_z_mm": [
+        255.2,
+        353.9
+      ],
+      "pocket_bounds_z_mm": [
+        302,
+        353.9
+      ],
+      "cad_sha256": {
+        "coupling_a": "8e5a4165541af295aa759b38acf0ca975cb34465fa4a88e9115aae5c5eb61578",
+        "coupling_b": "b1cc7e6c9e94e91fbdca6ae709e9c83faf685a7ae2dbda8b9fa153debd525fa5"
+      }
+    },
+    "limitations": "Steady RANS oscillation, not residual convergence; one revised 1mm mesh; original two valve coils omitted (~12 Pa historical hand estimate)",
+    "plane_mass_flux_kg_s": {
+      "z200q": 0.28004607988884,
+      "z250q": 0.28042614257166,
+      "z258q": 0.27835725051819,
+      "z265q": 0.27886929047972997,
+      "z272q": 0.28379168763848994,
+      "z280q": 0.28180434394179,
+      "z286q": 0.28369623978513,
+      "z289q": 0.28004431690332,
+      "z292q": 0.28003560359859,
+      "z300q": 0.28199606861709,
+      "z310q": 0.27876139553754,
+      "z320q": 0.28069734089862,
+      "z328q": 0.28202505282981,
+      "z333q": 0.28134723057057,
+      "z340q": 0.28965959539802993,
+      "z348q": 0.28455052958720994,
+      "z352_5q": 0.27690817119264,
+      "z360q": 0.28179759915198,
+      "z380q": 0.28086810271695,
+      "z410q": 0.28094591386413004
+    },
+    "max_plane_mass_flux_error_pct": 3.45,
+    "mass_flux_within_1p5pct": false,
+    "inlet_patch_mdot_kg_s": 0.2798879168127475,
+    "outlet_patch_mdot_kg_s": 0.27964234364463,
+    "global_flux_imbalance_pct": 0.08774,
+    "mesh_quality_lines": [
+      "Max aspect ratio = 16.042322 OK.",
+      "Mesh non-orthogonality Max: 79.004796 average: 16.11716",
+      "Max skewness = 1.5954442 OK.",
+      "Mesh OK."
+    ],
+    "retention_capacity": {
+      "A": {
+        "free_gland_capacity_cm3": 1.8412164404482787,
+        "already_in_main_CFD_cm3": 0.0,
+        "additional_isolated_capacity_cm3": 1.8412164404482787,
+        "capacity_r_gt_19mm_cm3": 1.7099833989590183,
+        "z_bounds_mm": [
+          290.0,
+          293.8622
+        ]
+      },
+      "B": {
+        "free_gland_capacity_cm3": 1.8412163941158537,
+        "already_in_main_CFD_cm3": 0.0,
+        "additional_isolated_capacity_cm3": 1.8412163941158537,
+        "capacity_r_gt_19mm_cm3": 1.7099833526266122,
+        "z_bounds_mm": [
+          322.1378,
+          326.0
+        ]
+      },
+      "evidence": "COMPUTED nominal CAD free capacities; ESTIMATE upper bound if cold seat relaxation/gap admits LOX. Not a resolved gap-flow or seal-leakage prediction.",
+      "main_CFD_wetted_cm3": 85.19727966815822,
+      "wetted_if_both_glands_fill_cm3": 88.87971250272236
+    },
+    "K_line_head": 9.6473,
+    "Cv_equiv": 7.2071
+  }
+}

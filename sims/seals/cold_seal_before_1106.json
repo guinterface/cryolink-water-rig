@@ -1,0 +1,55 @@
+{
+ "T_K": 90.0,
+ "dL_L_pct": {
+  "Al6061": -0.376,
+  "SS304": -0.27,
+  "PTFE": -1.886,
+  "PCTFE": -0.931,
+  "silicone": -2.114
+ },
+ "seat": {
+  "radial_gap_opens_mm": 0.108,
+  "diametral_mm": 0.216,
+  "axial_clamp_lost_mm": 0.0166,
+  "note": "A line-to-line seat at room temperature is loose by this much at 90 K; it needs an axial preload that survives the loss (spring/Belleville or a retainer with stretch), or radial interference above the gap."
+ },
+ "warm_seal": {
+  "female_ri": 25.063,
+  "spigot_ro": 24.963,
+  "cases": {
+   "both 293 K": {
+    "clearance_mm": 0.1,
+    "seal_squeeze_pct": 22.0
+   },
+   "both 90 K": {
+    "clearance_mm": 0.0996,
+    "seal_squeeze_pct": 20.6
+   },
+   "B cold 90 K, A warm 293 K (mate to a chilled client)": {
+    "clearance_mm": 0.0057,
+    "seal_squeeze_pct": 25.7
+   },
+   "A cold 90 K, B warm 293 K": {
+    "clearance_mm": 0.194,
+    "seal_squeeze_pct": 15.2
+   }
+  },
+  "min_B_temp_K_for_0p05mm_with_A_warm": 201.6,
+  "running_clearance_needed_for_0p05mm_at_dT_full_mm": 0.144
+ },
+ "face_seal": {
+  "silicone (elastomer, as modelled)": {
+   "squeeze_293K_pct": 22.0,
+   "squeeze_90K_pct": 20.6,
+   "ring_radius_shrink_mm": 0.351,
+   "groove_radius_shrink_mm": 0.063
+  },
+  "PTFE jacket (spring-energized option)": {
+   "squeeze_293K_pct": 22.0,
+   "squeeze_90K_pct": 20.8,
+   "ring_radius_shrink_mm": 0.314,
+   "groove_radius_shrink_mm": 0.063
+  },
+  "verdict": "Squeeze barely changes, so contraction is not the problem. The problem is the material: an elastomer O-ring in LOX at 90 K is hard and brittle and most elastomers are not LOX compatible (TRW/NASA 1970, p. 10). The ring also shrinks about 0.3 mm more in radius than its groove, so it hugs the groove inner wall and pressure must push it across the groove before it seals. Replace both AS568 seals with spring-energized PTFE-jacketed seals (the spring keeps the load the jacket loses on cooling) or a metal seal; needs a seal supplier and a Codex CAD change of the glands."
+ }
+}

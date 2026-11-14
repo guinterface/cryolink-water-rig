@@ -1,0 +1,229 @@
+{
+ "note": "FEA v6 bolted-joint boundary study, fix3 plate, h6 mesh 1.01M nodes (same as v5). Random = Miles on mode 1, Rideshare guide v11 Table 4-6/6-1. Clamp-edge peak is at the edge of an idealized fixed patch (singular, grows with refinement); outside-clamp = max excluding bottom 3 mm within 20 mm of a bolt.",
+ "variants": {
+  "v5_patch10": {
+   "f1_hz": 82.2,
+   "z_mass": 0.871,
+   "axial10_peak_mpa": 72.5,
+   "peak_at": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "axial10_outside_mpa": 62.7,
+   "outside_at": [
+    126.6,
+    136.5,
+    8.0
+   ],
+   "umax_mm": 0.43,
+   "qual_Q_for_MS0_peak": 13.4,
+   "qual_Q_for_MS0_outside": 17.9,
+   "random": {
+    "acceptance_Q10": {
+     "g3": 13.2,
+     "peak_mpa": 96.0,
+     "ms_peak": 1.31,
+     "outside_mpa": 83,
+     "ms_outside": 1.67
+    },
+    "protoflight_Q10": {
+     "g3": 18.6,
+     "peak_mpa": 135.0,
+     "ms_peak": 0.63,
+     "outside_mpa": 117,
+     "ms_outside": 0.89
+    },
+    "protoflight_Q20": {
+     "g3": 26.4,
+     "peak_mpa": 191.0,
+     "ms_peak": 0.15,
+     "outside_mpa": 166,
+     "ms_outside": 0.33
+    },
+    "qualification_Q10": {
+     "g3": 26.3,
+     "peak_mpa": 191.0,
+     "ms_peak": 0.16,
+     "outside_mpa": 165,
+     "ms_outside": 0.34
+    },
+    "qualification_Q20": {
+     "g3": 37.3,
+     "peak_mpa": 270.0,
+     "ms_peak": -0.18,
+     "outside_mpa": 234,
+     "ms_outside": -0.06
+    }
+   }
+  },
+  "cone": {
+   "f1_hz": 84.5,
+   "z_mass": 0.869,
+   "axial10_peak_mpa": 77.7,
+   "peak_at": [
+    -228.6,
+    212.7,
+    0.0
+   ],
+   "axial10_outside_mpa": 62.4,
+   "outside_at": [
+    126.6,
+    136.5,
+    8.0
+   ],
+   "umax_mm": 0.408,
+   "qual_Q_for_MS0_peak": 11.3,
+   "qual_Q_for_MS0_outside": 17.6,
+   "random": {
+    "acceptance_Q10": {
+     "g3": 13.4,
+     "peak_mpa": 104.0,
+     "ms_peak": 1.12,
+     "outside_mpa": 84,
+     "ms_outside": 1.64
+    },
+    "protoflight_Q10": {
+     "g3": 18.9,
+     "peak_mpa": 147.0,
+     "ms_peak": 0.5,
+     "outside_mpa": 118,
+     "ms_outside": 0.87
+    },
+    "protoflight_Q20": {
+     "g3": 26.7,
+     "peak_mpa": 208.0,
+     "ms_peak": 0.06,
+     "outside_mpa": 166,
+     "ms_outside": 0.33
+    },
+    "qualification_Q10": {
+     "g3": 26.7,
+     "peak_mpa": 208.0,
+     "ms_peak": 0.06,
+     "outside_mpa": 166,
+     "ms_outside": 0.33
+    },
+    "qualification_Q20": {
+     "g3": 37.8,
+     "peak_mpa": 294.0,
+     "ms_peak": -0.25,
+     "outside_mpa": 236,
+     "ms_outside": -0.06
+    }
+   }
+  },
+  "washer": {
+   "f1_hz": 79.7,
+   "z_mass": 0.875,
+   "axial10_peak_mpa": 79.7,
+   "peak_at": [
+    -223.1,
+    -217.1,
+    0.0
+   ],
+   "axial10_outside_mpa": 62.4,
+   "outside_at": [
+    126.6,
+    136.5,
+    8.0
+   ],
+   "umax_mm": 0.457,
+   "qual_Q_for_MS0_peak": 11.4,
+   "qual_Q_for_MS0_outside": 18.7,
+   "random": {
+    "acceptance_Q10": {
+     "g3": 13.0,
+     "peak_mpa": 104.0,
+     "ms_peak": 1.13,
+     "outside_mpa": 81,
+     "ms_outside": 1.72
+    },
+    "protoflight_Q10": {
+     "g3": 18.4,
+     "peak_mpa": 146.0,
+     "ms_peak": 0.51,
+     "outside_mpa": 115,
+     "ms_outside": 0.92
+    },
+    "protoflight_Q20": {
+     "g3": 26.0,
+     "peak_mpa": 207.0,
+     "ms_peak": 0.07,
+     "outside_mpa": 162,
+     "ms_outside": 0.36
+    },
+    "qualification_Q10": {
+     "g3": 25.9,
+     "peak_mpa": 207.0,
+     "ms_peak": 0.07,
+     "outside_mpa": 162,
+     "ms_outside": 0.37
+    },
+    "qualification_Q20": {
+     "g3": 36.7,
+     "peak_mpa": 292.0,
+     "ms_peak": -0.24,
+     "outside_mpa": 229,
+     "ms_outside": -0.04
+    }
+   }
+  },
+  "cone_soft": {
+   "f1_hz": 69.0,
+   "z_mass": 0.89,
+   "axial10_peak_mpa": 71.7,
+   "peak_at": [
+    -221.3,
+    98.3,
+    8.0
+   ],
+   "axial10_outside_mpa": 71.7,
+   "outside_at": [
+    -221.3,
+    98.3,
+    8.0
+   ],
+   "umax_mm": 0.608,
+   "qual_Q_for_MS0_peak": 16.3,
+   "qual_Q_for_MS0_outside": 16.3,
+   "random": {
+    "acceptance_Q10": {
+     "g3": 12.1,
+     "peak_mpa": 87.0,
+     "ms_peak": 1.55,
+     "outside_mpa": 87,
+     "ms_outside": 1.55
+    },
+    "protoflight_Q10": {
+     "g3": 17.1,
+     "peak_mpa": 122.0,
+     "ms_peak": 0.8,
+     "outside_mpa": 123,
+     "ms_outside": 0.8
+    },
+    "protoflight_Q20": {
+     "g3": 24.2,
+     "peak_mpa": 173.0,
+     "ms_peak": 0.27,
+     "outside_mpa": 173,
+     "ms_outside": 0.27
+    },
+    "qualification_Q10": {
+     "g3": 24.1,
+     "peak_mpa": 173.0,
+     "ms_peak": 0.28,
+     "outside_mpa": 173,
+     "ms_outside": 0.28
+    },
+    "qualification_Q20": {
+     "g3": 34.1,
+     "peak_mpa": 245.0,
+     "ms_peak": -0.1,
+     "outside_mpa": 244,
+     "ms_outside": -0.1
+    }
+   }
+  }
+ }
+}

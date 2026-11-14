@@ -1,0 +1,711 @@
+{
+ "modes": 60,
+ "f_hz": [
+  82.2,
+  118.0,
+  121.4,
+  218.8,
+  231.8,
+  255.2,
+  274.0,
+  295.5,
+  321.4,
+  326.7,
+  417.3,
+  446.2,
+  562.8,
+  590.6,
+  599.8,
+  617.2,
+  637.2,
+  698.6,
+  734.4,
+  748.3,
+  799.0,
+  813.8,
+  841.6,
+  866.3,
+  923.9,
+  940.7,
+  954.7,
+  984.2,
+  996.9,
+  1010.9,
+  1022.2,
+  1032.4,
+  1036.3,
+  1043.3,
+  1045.7,
+  1051.8,
+  1066.0,
+  1092.3,
+  1100.8,
+  1101.9,
+  1107.8,
+  1110.8,
+  1152.1,
+  1182.3,
+  1227.4,
+  1266.3,
+  1288.8,
+  1315.4,
+  1330.2,
+  1356.0,
+  1443.1,
+  1467.9,
+  1521.4,
+  1545.5,
+  1557.1,
+  1581.1,
+  1623.3,
+  1635.6,
+  1684.1,
+  1712.4
+ ],
+ "captured_mass_fraction": {
+  "x": 0.878,
+  "y": 0.901,
+  "z": 0.961
+ },
+ "mpe_grms": 5.57,
+ "cases": [
+  {
+   "axis": "x",
+   "Q": 10,
+   "dB": 0,
+   "vm_rms_max": 11.76,
+   "vm_3sig_max": 35.3,
+   "ms_3sig": 5.26,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 14.1,
+   "ms_3sig_p999": 14.68,
+   "u_3sig_max_mm": 0.372,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.11
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "x",
+   "Q": 10,
+   "dB": 3,
+   "vm_rms_max": 16.62,
+   "vm_3sig_max": 49.8,
+   "ms_3sig": 3.43,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 19.9,
+   "ms_3sig_p999": 10.1,
+   "u_3sig_max_mm": 0.525,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.11
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "x",
+   "Q": 10,
+   "dB": 6,
+   "vm_rms_max": 23.47,
+   "vm_3sig_max": 70.4,
+   "ms_3sig": 2.14,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 28.1,
+   "ms_3sig_p999": 6.86,
+   "u_3sig_max_mm": 0.742,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.11
+    }
+   ],
+   "level": "qualification"
+  },
+  {
+   "axis": "x",
+   "Q": 20,
+   "dB": 0,
+   "vm_rms_max": 24.01,
+   "vm_3sig_max": 72.0,
+   "ms_3sig": 2.07,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 21.1,
+   "ms_3sig_p999": 9.48,
+   "u_3sig_max_mm": 0.525,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.108
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "x",
+   "Q": 20,
+   "dB": 3,
+   "vm_rms_max": 33.91,
+   "vm_3sig_max": 101.7,
+   "ms_3sig": 1.17,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 29.8,
+   "ms_3sig_p999": 6.42,
+   "u_3sig_max_mm": 0.741,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.108
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "x",
+   "Q": 20,
+   "dB": 6,
+   "vm_rms_max": 47.9,
+   "vm_3sig_max": 143.7,
+   "ms_3sig": 0.54,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 42.0,
+   "ms_3sig_p999": 4.25,
+   "u_3sig_max_mm": 1.047,
+   "top_modes": [
+    {
+     "mode": 32,
+     "f_hz": 1032.4,
+     "share": 0.233
+    },
+    {
+     "mode": 36,
+     "f_hz": 1051.8,
+     "share": 0.157
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.108
+    }
+   ],
+   "level": "qualification"
+  },
+  {
+   "axis": "y",
+   "Q": 10,
+   "dB": 0,
+   "vm_rms_max": 17.05,
+   "vm_3sig_max": 51.2,
+   "ms_3sig": 3.32,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 14.4,
+   "ms_3sig_p999": 14.32,
+   "u_3sig_max_mm": 0.322,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.68
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.117
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.073
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "y",
+   "Q": 10,
+   "dB": 3,
+   "vm_rms_max": 24.09,
+   "vm_3sig_max": 72.3,
+   "ms_3sig": 2.06,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 20.4,
+   "ms_3sig_p999": 9.85,
+   "u_3sig_max_mm": 0.455,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.68
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.117
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.073
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "y",
+   "Q": 10,
+   "dB": 6,
+   "vm_rms_max": 34.02,
+   "vm_3sig_max": 102.1,
+   "ms_3sig": 1.16,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 28.8,
+   "ms_3sig_p999": 6.68,
+   "u_3sig_max_mm": 0.642,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.68
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.117
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.073
+    }
+   ],
+   "level": "qualification"
+  },
+  {
+   "axis": "y",
+   "Q": 20,
+   "dB": 0,
+   "vm_rms_max": 34.62,
+   "vm_3sig_max": 103.9,
+   "ms_3sig": 1.13,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 22.7,
+   "ms_3sig_p999": 8.75,
+   "u_3sig_max_mm": 0.46,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.685
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.111
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.072
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "y",
+   "Q": 20,
+   "dB": 3,
+   "vm_rms_max": 48.9,
+   "vm_3sig_max": 146.7,
+   "ms_3sig": 0.51,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 32.0,
+   "ms_3sig_p999": 5.9,
+   "u_3sig_max_mm": 0.65,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.685
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.111
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.072
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "y",
+   "Q": 20,
+   "dB": 6,
+   "vm_rms_max": 69.08,
+   "vm_3sig_max": 207.2,
+   "ms_3sig": 0.07,
+   "at_xyz": [
+    -3.9,
+    42.6,
+    266.2
+   ],
+   "vm_3sig_p999": 45.2,
+   "ms_3sig_p999": 3.88,
+   "u_3sig_max_mm": 0.918,
+   "top_modes": [
+    {
+     "mode": 20,
+     "f_hz": 748.3,
+     "share": 0.685
+    },
+    {
+     "mode": 18,
+     "f_hz": 698.6,
+     "share": 0.111
+    },
+    {
+     "mode": 19,
+     "f_hz": 734.4,
+     "share": 0.072
+    }
+   ],
+   "level": "qualification"
+  },
+  {
+   "axis": "z",
+   "Q": 10,
+   "dB": 0,
+   "vm_rms_max": 33.1,
+   "vm_3sig_max": 99.3,
+   "ms_3sig": 1.22,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 36.5,
+   "ms_3sig_p999": 5.05,
+   "u_3sig_max_mm": 0.574,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "z",
+   "Q": 10,
+   "dB": 3,
+   "vm_rms_max": 46.75,
+   "vm_3sig_max": 140.3,
+   "ms_3sig": 0.57,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 51.6,
+   "ms_3sig_p999": 3.28,
+   "u_3sig_max_mm": 0.81,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "z",
+   "Q": 10,
+   "dB": 6,
+   "vm_rms_max": 66.04,
+   "vm_3sig_max": 198.1,
+   "ms_3sig": 0.11,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 72.9,
+   "ms_3sig_p999": 2.03,
+   "u_3sig_max_mm": 1.145,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "qualification"
+  },
+  {
+   "axis": "z",
+   "Q": 20,
+   "dB": 0,
+   "vm_rms_max": 47.21,
+   "vm_3sig_max": 141.6,
+   "ms_3sig": 0.56,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 52.0,
+   "ms_3sig_p999": 3.25,
+   "u_3sig_max_mm": 0.818,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "acceptance"
+  },
+  {
+   "axis": "z",
+   "Q": 20,
+   "dB": 3,
+   "vm_rms_max": 66.68,
+   "vm_3sig_max": 200.0,
+   "ms_3sig": 0.1,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 73.4,
+   "ms_3sig_p999": 2.01,
+   "u_3sig_max_mm": 1.155,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "protoflight"
+  },
+  {
+   "axis": "z",
+   "Q": 20,
+   "dB": 6,
+   "vm_rms_max": 94.19,
+   "vm_3sig_max": 282.6,
+   "ms_3sig": -0.22,
+   "at_xyz": [
+    -226.3,
+    215.1,
+    0.0
+   ],
+   "vm_3sig_p999": 103.7,
+   "ms_3sig_p999": 1.13,
+   "u_3sig_max_mm": 1.631,
+   "top_modes": [
+    {
+     "mode": 1,
+     "f_hz": 82.2,
+     "share": 0.992
+    },
+    {
+     "mode": 3,
+     "f_hz": 121.4,
+     "share": 0.006
+    },
+    {
+     "mode": 9,
+     "f_hz": 321.4,
+     "share": 0.001
+    }
+   ],
+   "level": "qualification"
+  }
+ ],
+ "away_from_clamp": {
+  "rule": "exclude plate bottom 3 mm within 20 mm of a bolt center (same as v6)",
+  "ratio_z": 0.842,
+  "ratio_x": 1.0,
+  "ratio_y": 1.0,
+  "z_away_3sig_mpa": {
+   "acceptance_Q10": 83.6,
+   "protoflight_Q10": 118.1,
+   "qualification_Q10": 166.8,
+   "acceptance_Q20": 119.2,
+   "protoflight_Q20": 168.4,
+   "qualification_Q20": 237.9
+  },
+  "z_away_ms": {
+   "acceptance_Q10": 1.64,
+   "protoflight_Q10": 0.87,
+   "qualification_Q10": 0.32,
+   "acceptance_Q20": 0.85,
+   "protoflight_Q20": 0.31,
+   "qualification_Q20": -0.07
+  }
+ },
+ "q_for_qual_ms0": {
+  "peak": 12.4,
+  "away_from_clamp": 17.5
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "conduction_bare_J": 1.3708285701384044,
+  "conduction_coated_J": 1.3211637766123658,
+  "off_heat_J": 717.9655599373929,
+  "mass_error_kg": 1.734723475976807e-18,
+  "cell_energy_error_J": 8.837375276016246e-14,
+  "teflon_k_100K": 0.24335484661333212
+}

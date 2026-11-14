@@ -1,0 +1,63 @@
+{
+ "revision": "2026-11-06 cold-fit; B housing only, sleeve press-fit/thermal stress excluded",
+ "pressures_mpa": {
+  "MEOP": 0.44,
+  "proof": 0.66,
+  "burst": 1.1
+ },
+ "sealed_area_mm2": {
+  "face_seal": 958.3,
+  "radial_seal": 2026.8
+ },
+ "hook_angles_deg": [
+  120.0,
+  240.0,
+  360.0
+ ],
+ "hand": {
+  "MEOP": {
+   "F_sep_N": 892,
+   "F_per_hook_N": 297,
+   "pin_tau_mpa": 7.6,
+   "F_sep_face_seal_N": 422
+  },
+  "proof": {
+   "F_sep_N": 1338,
+   "F_per_hook_N": 446,
+   "pin_tau_mpa": 11.4,
+   "F_sep_face_seal_N": 632
+  },
+  "burst": {
+   "F_sep_N": 2230,
+   "F_per_hook_N": 743,
+   "pin_tau_mpa": 18.9,
+   "F_sep_face_seal_N": 1054
+  }
+ },
+ "mesh_h": 1.5,
+ "nodes": 475927,
+ "elements": 323627,
+ "footprint_mm2": 89.2,
+ "solver_returncode": 0,
+ "housing_sha256": "28c4950e79c21d242ebd54dc49051d6eb153d6e338d14c9e1ffd7ed291523bc7",
+ "fea_proof": {
+  "F_sep_N": 1338,
+  "vm_max_mpa": 59.1,
+  "vm_max_at": [
+   -23.1,
+   -38.2,
+   333.0
+  ],
+  "vm_max_away_mpa": 47.0,
+  "vm_max_away_at": [
+   -23.1,
+   -38.2,
+   330.0
+  ],
+  "umax_mm": 0.0105,
+  "ms_proof_peak": 3.67,
+  "ms_proof_away": 4.87,
+  "ms_burst_peak": 2.15,
+  "ms_burst_away": 2.96
+ }
+}
