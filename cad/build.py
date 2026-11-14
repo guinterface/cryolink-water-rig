@@ -43,6 +43,57 @@ def spring(od,wire,length,turns=9):
  hel=cq.Wire.makeHelix(pitch,length-wire,rad)
  return cq.Workplane('XZ').center(rad,0).circle(wire/2).sweep(cq.Workplane(obj=hel),isFrenet=True).translate((0,0,wire/2))
 
+# Anchor axes measured from cylindrical shanks in step/assembly.step (2026-11-13).
+# Assembly XY equals subbase local XY; local Z0..10 is assembly Z25..35.
+# Nominal screw envelopes intentionally intersect the remaining tapped thread annuli.
+SUBBASE_ANCHOR_HOLES = [
+ ('feed_anchor_screw_0', 3.3, -210.000000000, -32.000000000),
+ ('feed_anchor_screw_1', 3.3, -210.000000000, -22.000000000),
+ ('feed_anchor_screw_2', 3.3, -170.000000000, -32.000000000),
+ ('feed_anchor_screw_3', 3.3, -170.000000000, -22.000000000),
+ ('drain_anchor_screw_0', 3.3, -135.000000000, -32.000000000),
+ ('drain_anchor_screw_1', 3.3, -135.000000000, -22.000000000),
+ ('drain_anchor_screw_2', 3.3, -95.000000000, -32.000000000),
+ ('drain_anchor_screw_3', 3.3, -95.000000000, -22.000000000),
+ ('fix8_riser_anchor_-145', 3.3, -145.000000000, 36.000000000),
+ ('fix8_riser_anchor_-133', 3.3, -133.000000000, 36.000000000),
+ ('fix8_manual_anchor_-240', 3.3, -240.000000000, -35.000000000),
+ ('fix8_manual_anchor_-230', 3.3, -230.000000000, -35.000000000),
+ ('fix9_servo_base_0_-30.5', 3.3, 87.500000000, -105.000000000),
+ ('fix9_servo_base_0_30.5', 3.3, 148.500000000, -105.000000000),
+ ('fix9_servo_base_1_-30.5', 3.3, -220.500000000, -93.000000000),
+ ('fix9_servo_base_1_30.5', 3.3, -159.500000000, -93.000000000),
+ ('fix9_servo_base_2_-30.5', 3.3, -145.500000000, -93.000000000),
+ ('fix9_servo_base_2_30.5', 3.3, -84.500000000, -93.000000000),
+ ('fix9_latch_tower_anchor_-6', 3.3, 197.984000000, 80.000000000),
+ ('fix9_latch_tower_anchor_6', 3.3, 215.984000000, 80.000000000),
+ ('fix9b_fill_anchor_0', 3.3, -238.000000000, -10.000000000),
+ ('fix9b_fill_anchor_1', 3.3, -222.000000000, -10.000000000),
+ ('fix9b_waste_anchor_0', 3.3, -53.000000000, 96.000000000),
+ ('fix9b_waste_anchor_1', 3.3, -37.000000000, 96.000000000),
+]
+def make_wet_subbase():
+ s=holes(box(490,220,10),[(-63,-35),(-63,35),(-37,-35),(-37,35)],4.5,0,10)
+ for name,diameter,x,y in SUBBASE_ANCHOR_HOLES:
+  s=holes(s,[(x,y)],diameter,-1,12)
+ return s
+
+# Targeted export avoids rewriting other parts, inventory, BOM and check ledgers.
+if __name__=='__main__' and '--subbase-only' in __import__('sys').argv:
+ assembly=cq.Assembly().load('step/assembly.step')
+ subbase=make_wet_subbase().val()
+ assert subbase.isValid()
+ assembly.objects['wet_subbase_36'].obj=subbase.translate((0,0,25))
+ exporters.export(subbase,'step/wet_subbase.step')
+ assembly.export('step/assembly.step')
+ # Load drawing definitions without executing the all-parts export loop.
+ drawing_source=Path('drawings.py').read_text().split("for p in json.load(open('inventory.json')):")[0]
+ drawing_ns={'__file__':str(ROOT/'drawings.py')}
+ exec(compile(drawing_source,'drawings.py','exec'),drawing_ns)
+ drawing_ns['sheet']('wet_subbase',next(p for p in json.loads(Path('inventory.json').read_text()) if p['part']=='wet_subbase'))
+ print('Exported wet_subbase STEP, assembly STEP and wet_subbase SVG/PNG/PDF only.')
+ raise SystemExit(0)
+
 # Metal wet cartridges: rear cap retained by four M3 through bolts, replaceable seat.
 bolt=[(25*math.cos(t*math.pi/2),25*math.sin(t*math.pi/2)) for t in range(4)]
 insert=ring(20,16,48,6).union(ring(29,16,6,0))
@@ -167,7 +218,7 @@ tray=box(580,275,3,z=12).union(box(580,3,32,0,-136,15)).union(box(580,3,32,0,136
 register('spill_tray_envelope',tray,'buy','polypropylene',(.68,.78,.81),'ASSUMPTION 580x275x35; buy watertight tray or bonded sheet, contains >4L')
 put('spill_tray_envelope')
 # pedestals above tray; penetrations avoided: independent subbase rests in tray
-register('wet_subbase',holes(box(490,220,10,z=0),mounts,4.5,0,10),'PRL mill','HDPE',METAL)
+register('wet_subbase',make_wet_subbase(),'PRL mill','HDPE',METAL)
 put('wet_subbase',(0,0,25))
 # guide rods on 4 supports, slide bushings integrated to plate with .25 radial clearance
 register('guide_rod',cyl(4,190),'buy','8 mm ground SS shaft',METAL,'Cut length190 ASSUMPTION')
